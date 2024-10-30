@@ -1,0 +1,3962 @@
+# Copyright (C) 2024 Matador Jobs
+# This file is distributed under the same license as the Matador Jobs package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Matador Jobs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-09-12 23:19+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../class-matador.php:166, ../src/Extension/ExtensionTrait.php:130
+msgid "There was an error initializing the Autoloader. Contact the developer."
+msgstr ""
+
+#: ../class-matador.php:218, ../src/Extension/ExtensionTrait.php:96
+msgid "No can do! You may not clone an instance of the plugin."
+msgstr ""
+
+#: ../class-matador.php:233, ../src/Extension/ExtensionTrait.php:107
+msgid "No can do! You may not unserialize an instance of the plugin."
+msgstr ""
+
+#: ../includes/class-application-handler.php:122
+msgid "Application save: nonce failed"
+msgstr ""
+
+#: ../includes/class-application-handler.php:316
+msgid "The save of a new application failed. The data is: "
+msgstr ""
+
+#: ../includes/class-application-handler.php:321
+msgid "A candidate application could not be saved to WordPress for an unknown reason. The data is: "
+msgstr ""
+
+#. translators: Label for a person\'s name. ie: "Name: John Doe"
+#: ../includes/class-application-handler.php:444, ../includes/admin/class-settings-fields.php:682
+msgid "Name"
+msgstr ""
+
+#: ../includes/class-application-handler.php:725
+msgid "Custom Job Request"
+msgstr ""
+
+#: ../includes/class-application-handler.php:750
+msgid "Job Applied For"
+msgstr ""
+
+#: ../includes/class-application-handler.php:799, ../includes/class-application-sync.php:1357
+msgid "Message: "
+msgstr ""
+
+#: ../includes/class-application-handler.php:967
+msgid "Function called incorrectly."
+msgstr ""
+
+#: ../includes/class-application-handler.php:974
+msgid "An invalid file type was uploaded"
+msgstr ""
+
+#: ../includes/class-application-handler.php:980
+msgid "Application cannot save resume because folder is missing or WordPress is unable to create it."
+msgstr ""
+
+#: ../includes/class-application-handler.php:1057
+msgid "An applicant"
+msgstr ""
+
+#: ../includes/class-application-handler.php:1064
+msgid "applied to"
+msgstr ""
+
+#: ../includes/class-application-handler.php:1062
+msgid "was referred to"
+msgstr ""
+
+#: ../includes/class-application-handler.php:1069
+msgid "a position"
+msgstr ""
+
+#. translators: number of additional positions.
+#: ../includes/class-application-handler.php:1074
+msgid "and %1$s other position(s)."
+msgstr ""
+
+#: ../includes/class-application-handler.php:1080
+msgid "Application received."
+msgstr ""
+
+#: ../includes/class-application-handler.php:1350
+msgid "Your Name"
+msgstr ""
+
+#: ../includes/class-application-handler.php:1358
+msgid "Prefix"
+msgstr ""
+
+#: ../includes/class-application-handler.php:1362
+msgid "First Name"
+msgstr ""
+
+#: ../includes/class-application-handler.php:1370
+msgid "Middle Name"
+msgstr ""
+
+#: ../includes/class-application-handler.php:1374
+msgid "Last Name"
+msgstr ""
+
+#: ../includes/class-application-handler.php:1382
+msgid "Suffix"
+msgstr ""
+
+#: ../includes/class-application-handler.php:1386, ../includes/admin/class-settings-fields.php:685
+msgid "Address"
+msgstr ""
+
+#: ../includes/class-application-handler.php:1390
+msgid "Address (Continued)"
+msgstr ""
+
+#: ../includes/class-application-handler.php:1394
+msgid "City"
+msgstr ""
+
+#: ../includes/class-application-handler.php:1398, ../includes/admin/class-settings-fields.php:393
+msgid "State/Province"
+msgstr ""
+
+#: ../includes/class-application-handler.php:1403, ../includes/admin/class-settings-fields.php:394
+msgid "ZIP/Postal Code"
+msgstr ""
+
+#: ../includes/class-application-handler.php:1408
+msgid "Email Address"
+msgstr ""
+
+#: ../includes/class-application-handler.php:1416
+msgid "Phone Number"
+msgstr ""
+
+#: ../includes/class-application-handler.php:1424
+msgid "Mobile Phone Number"
+msgstr ""
+
+#. translators: User setting result for how to refer to the CV/Resume
+#: ../includes/class-application-handler.php:1432
+msgid "Upload %1$s File"
+msgstr ""
+
+#. translators: Placeholders are list of accepted file types
+#: ../includes/class-application-handler.php:1434
+msgid "Attach a resume file. Accepted file types are %s."
+msgstr ""
+
+#: ../includes/class-application-handler.php:1442
+msgid "Upload Cover Letter"
+msgstr ""
+
+#. translators: Placeholders are list of accepted file types
+#: ../includes/class-application-handler.php:1444
+msgid "Attach a cover letter file. Accepted file types are %s."
+msgstr ""
+
+#: ../includes/class-application-handler.php:1451
+msgid "Upload Additional  Files"
+msgstr ""
+
+#. translators: Placeholders are list of accepted file types
+#: ../includes/class-application-handler.php:1453
+msgid "Attach additional files. Accepted file types are %s."
+msgstr ""
+
+#: ../includes/class-application-handler.php:1460
+msgid "Message to Recruiters."
+msgstr ""
+
+#: ../includes/class-application-handler.php:1461
+msgid "Include a message to the recruiters."
+msgstr ""
+
+#: ../includes/class-application-handler.php:1465
+msgid "Select Jobs to Apply For"
+msgstr ""
+
+#: ../includes/class-application-handler.php:1466
+msgid "Select one or many jobs you'd like to apply for."
+msgstr ""
+
+#: ../includes/class-application-handler.php:1470
+msgid "Types of Positions You're Interested In"
+msgstr ""
+
+#: ../includes/class-application-handler.php:1472
+msgid "eg: Software Engineer"
+msgstr ""
+
+#: ../includes/class-application-handler.php:1478
+msgid "LinkedIn Url Or Link To Your Portfolio"
+msgstr ""
+
+#: ../includes/class-application-handler.php:1485
+msgid "Best way to get in touch"
+msgstr ""
+
+#: ../includes/class-application-handler.php:1487
+msgid "eg: Email"
+msgstr ""
+
+#: ../includes/class-application-handler.php:1494
+msgid "By submitting this application, you give us permission to store your personal information, and use it in the consideration of your fitness for the position, including sharing it with the hiring firm."
+msgstr ""
+
+#: ../includes/class-application-handler.php:1496
+msgid "Review our Privacy Policy for more information."
+msgstr ""
+
+#: ../includes/class-application-handler.php:1499
+msgid "You must agree to our Privacy Policy."
+msgstr ""
+
+#: ../includes/class-application-handler.php:1507
+msgid "By submitting this application, you agree to our Terms of Service."
+msgstr ""
+
+#: ../includes/class-application-handler.php:1509
+msgid "Review our Terms of Service for more information."
+msgstr ""
+
+#: ../includes/class-application-handler.php:1512
+msgid "You must agree to our Terms of Service."
+msgstr ""
+
+#: ../includes/class-application-handler.php:1518
+msgid "Current Job Title"
+msgstr ""
+
+#: ../includes/class-application-handler.php:1525
+msgid "Current Company"
+msgstr ""
+
+#: ../includes/class-application-sync.php:397
+msgid "Application will not be synced to Bullhorn, but to 3rd-party application processor. Application ID: "
+msgstr ""
+
+#: ../includes/class-application-sync.php:425
+msgid "Application to 3rd party application processor failed."
+msgstr ""
+
+#: ../includes/class-application-sync.php:414
+msgid "Application synced to 3rd-party application processor. Application ID: "
+msgstr ""
+
+#: ../includes/class-application-sync.php:417
+msgid "Application synced to 3rd-party application processor will now be deleted due to Privacy and Data Storage settings. Removing local candidate "
+msgstr ""
+
+#: ../includes/class-application-sync.php:438
+msgid "Starting application sync for local candidate"
+msgstr ""
+
+#: ../includes/class-application-sync.php:615
+msgid "Application cannot sync due to too little data."
+msgstr ""
+
+#: ../includes/class-application-sync.php:520
+msgid "An existing remote candidate was not found. Will create a new remote candidate"
+msgstr ""
+
+#: ../includes/class-application-sync.php:532
+msgid "Failed to create candidate"
+msgstr ""
+
+#: ../includes/class-application-sync.php:539
+msgid "A new remote candidate was created as"
+msgstr ""
+
+#: ../includes/class-application-sync.php:470
+msgid "Found and updating existing remote candidate"
+msgstr ""
+
+#: ../includes/class-application-sync.php:509
+msgid "An existing remote candidate update failed and Matador is unable to continue."
+msgstr ""
+
+#: ../includes/class-application-sync.php:507
+msgid "An existing remote candidate was not updated due to a previously logged error. Will continue without update."
+msgstr ""
+
+#: ../includes/class-application-sync.php:482
+msgid "A \"private\" candidate applied for a role and the API user is unable modify \"Private\" candidates to update the record or submit them for a role."
+msgstr ""
+
+#: ../includes/class-application-sync.php:483
+msgid "You must manually access their application in Matador Jobs and submit them for the position. Also, you should contact Bullhorn to grant your API User access to modify private candidates."
+msgstr ""
+
+#: ../includes/class-application-sync.php:604
+msgid "Completed application sync for local candidate"
+msgstr ""
+
+#: ../includes/class-application-sync.php:607
+msgid "Now will delete local candidate due to Privacy and Data Storage settings. Removing local candidate "
+msgstr ""
+
+#. translators: Placeholder 1 is for the WPID of the Application.
+#: ../includes/class-application-sync.php:666
+msgid "Application sync failed for local candidate %1$s. Data must be manually submitted to Bullhorn."
+msgstr ""
+
+#: ../includes/class-application-sync.php:649
+msgid "Application sync failed for local candidate %1$s failed permanently. Data must be manually submitted to Bullhorn."
+msgstr ""
+
+#: ../includes/class-application-sync.php:636
+msgid "Application sync failed for local candidate %1$s due to Consent Object permissions error. Will retry on next sync. Starting 24 hour candidate consent data skip."
+msgstr ""
+
+#: ../includes/class-application-sync.php:782
+msgid "Linked candidate to Default application with Bullhorn ID"
+msgstr ""
+
+#: ../includes/class-application-sync.php:774
+msgid "Linked candidate to an application with the Bullhorn ID of"
+msgstr ""
+
+#: ../includes/class-application-sync.php:774
+msgid "and Submission ID"
+msgstr ""
+
+#: ../includes/class-application-sync.php:822
+msgid "Unprocessable resume."
+msgstr ""
+
+#: ../includes/class-application-sync.php:837
+msgid "No resume for applicant."
+msgstr ""
+
+#: ../includes/class-application-sync.php:834
+msgid "Error on resume process from Bullhorn: "
+msgstr ""
+
+#: ../includes/class-application-sync.php:1373
+msgid "Applied via the website for this position: "
+msgstr ""
+
+#: ../includes/class-application-sync.php:1611
+msgid "Skipping candidate consent data save."
+msgstr ""
+
+#: ../includes/class-application-sync.php:1626
+msgid "Candidate accepted Privacy Policy."
+msgstr ""
+
+#: ../includes/class-application-sync.php:1642, ../includes/class-application-sync.php:1690
+msgid "Recruiting"
+msgstr ""
+
+#: ../includes/class-application-sync.php:1644
+msgid "Legal Obligation"
+msgstr ""
+
+#: ../includes/class-application-sync.php:1646, ../includes/class-application-sync.php:1694
+msgid "Web Response"
+msgstr ""
+
+#: ../includes/class-application-sync.php:1674
+msgid "Candidate accepted Terms of Service."
+msgstr ""
+
+#: ../includes/class-application-sync.php:1692
+msgid "Contract Necessity"
+msgstr ""
+
+#: ../includes/class-application.php:97
+msgctxt "Applications Post Type General Name"
+msgid "Applications"
+msgstr ""
+
+#: ../includes/class-application.php:98
+msgctxt "Applications Post Type Singular Name"
+msgid "Application"
+msgstr ""
+
+#: ../includes/class-application.php:99, ../includes/class-job-listing.php:301
+msgid "Add New"
+msgstr ""
+
+#: ../includes/class-application.php:100
+msgid "Add New Application"
+msgstr ""
+
+#: ../includes/class-application.php:101
+msgid "Edit Application"
+msgstr ""
+
+#: ../includes/class-application.php:102
+msgid "New Application"
+msgstr ""
+
+#: ../includes/class-application.php:103
+msgid "View Application"
+msgstr ""
+
+#: ../includes/class-application.php:104
+msgid "Search Applications"
+msgstr ""
+
+#: ../includes/class-application.php:105
+msgid "No Applications found"
+msgstr ""
+
+#: ../includes/class-application.php:106
+msgid "No Applications found in Trash"
+msgstr ""
+
+#: ../includes/class-application.php:108
+msgid "Applications"
+msgstr ""
+
+#: ../includes/class-application.php:109
+msgid "Application"
+msgstr ""
+
+#: ../includes/class-application.php:129
+msgid "Job Applications for the Matador Jobs Board."
+msgstr ""
+
+#: ../includes/class-application.php:191
+msgid "Sync Status"
+msgstr ""
+
+#: ../includes/class-application.php:252
+msgid "Sync Now"
+msgstr ""
+
+#: ../includes/class-application.php:252, ../includes/class-application.php:597
+msgid "Re-try Sync"
+msgstr ""
+
+#: ../includes/class-application.php:356
+msgid "Pending"
+msgstr ""
+
+#: ../includes/class-application.php:373
+msgid "Synced"
+msgstr ""
+
+#: ../includes/class-application.php:370, ../includes/class-application.php:366
+msgid "Synced as Bullhorn Candidate %1$s"
+msgstr ""
+
+#: ../includes/class-application.php:364, ../includes/class-application.php:589, ../includes/class-job-listing.php:803, ../includes/class-job-listing.php:864
+msgid "Open in Bullhorn"
+msgstr ""
+
+#: ../includes/class-application.php:377
+msgid "Incomplete"
+msgstr ""
+
+#: ../includes/class-application.php:380
+msgid "Automatic Sync Failed. Re-try."
+msgstr ""
+
+#: ../includes/class-application.php:383
+msgid "Unable to Sync. (Too Little Information)."
+msgstr ""
+
+#: ../includes/class-application.php:386
+msgid "Candidate exists and is marked as \"Private\" in Bullhorn. Application must be manually created."
+msgstr ""
+
+#: ../includes/class-application.php:389
+msgid "Application record was not created properly. Contact Matador Support."
+msgstr ""
+
+#: ../includes/class-application.php:437
+msgid "Attached Files"
+msgstr ""
+
+#: ../includes/class-application.php:464
+msgid "No attached files"
+msgstr ""
+
+#: ../includes/class-application.php:479
+msgid "Bullhorn Activity Log"
+msgstr ""
+
+#: ../includes/class-application.php:496
+msgid "No log"
+msgstr ""
+
+#: ../includes/class-application.php:597
+msgid "Sync to Bullhorn"
+msgstr ""
+
+#: ../includes/class-application.php:590
+msgid "Open the Candidate in Bullhorn"
+msgstr ""
+
+#: ../includes/class-application.php:621
+msgid "A new candidate application was submitted. Application ID: "
+msgstr ""
+
+#: ../includes/class-application.php:631
+msgid "A new candidate application was submitted but settings prevent it being automatically uploaded to Bullhorn. Application ID "
+msgstr ""
+
+#: ../includes/class-application.php:628
+msgid "A new candidate application was submitted and will now be uploaded to Bullhorn. Application ID "
+msgstr ""
+
+#: ../includes/class-application.php:626
+msgid "A new candidate application was submitted and will be uploaded to Bullhorn in the next batch. Application ID: "
+msgstr ""
+
+#: ../includes/class-application.php:647
+msgid "Sync Pending Now"
+msgstr ""
+
+#: ../includes/class-application.php:663
+msgid "Delete Synced"
+msgstr ""
+
+#. translators: %s if file path
+#: ../includes/class-application.php:697
+msgid "The following file was unable to be removed as part of the delete Application routine: %s"
+msgstr ""
+
+#: ../includes/class-application.php:694
+msgid "The following file was removed as part of the delete Application routine: %s"
+msgstr ""
+
+#: ../includes/class-endpoints.php:128, ../includes/class-endpoints.php:276
+msgid "Forbidden"
+msgstr ""
+
+#: ../includes/class-endpoints.php:129
+msgid "An unauthorized request was made to the authorization endpoint and was blocked."
+msgstr ""
+
+#: ../includes/class-endpoints.php:138
+msgid "A valid authorization response was received. Will log in with Authorization Code"
+msgstr ""
+
+#: ../includes/class-endpoints.php:149
+msgid "Matador successfully authorized with Bullhorn as %s"
+msgstr ""
+
+#: ../includes/class-endpoints.php:169
+msgid "An authorization response from Bullhorn resulted in an error: "
+msgstr ""
+
+#: ../includes/class-endpoints.php:189
+msgid "An invalid automatic reauthorization request was processed."
+msgstr ""
+
+#: ../includes/class-endpoints.php:184
+msgid "A valid automatic reauthorization request was processed."
+msgstr ""
+
+#: ../includes/class-endpoints.php:283
+msgid "No Content"
+msgstr ""
+
+#: ../includes/class-helper.php:58
+msgid "No file path provided in get_filetype()."
+msgstr ""
+
+#: ../includes/class-helper.php:259
+msgid "Cirriculum Vitae"
+msgstr ""
+
+#: ../includes/class-helper.php:262
+msgid "CV"
+msgstr ""
+
+#: ../includes/class-helper.php:266
+msgid "Resume"
+msgstr ""
+
+#. translators: placeholder 1 is the 'type' of deprecated item, ie: a function. Placeholder 2 is the old
+#: ../includes/class-helper.php:673
+msgid "Your theme or extension is using the deprecated \"%2$s\" %1$s. Please consider an alternative solution. We will remove this %1$s in a future version."
+msgstr ""
+
+#: ../includes/class-helper.php:666
+msgid "Your theme or extension is using the deprecated \"%2$s\" %1$s. Please update the %1$s to \"%3$s\". We will remove this %1$s in a future version."
+msgstr ""
+
+#: ../includes/class-helper.php:681
+msgid "Deprecation Notice"
+msgstr ""
+
+#: ../includes/class-helper.php:683
+msgid "Only you, a logged in user who can edit content, can see this notice."
+msgstr ""
+
+#: ../includes/class-honeypot.php:61
+msgid "People looking for jobs should not put anything here."
+msgstr ""
+
+#: ../includes/class-honeypot.php:81
+msgid "Matador detected a user filling out the anti-spam fields and rejected the application."
+msgstr ""
+
+#: ../includes/class-honeypot.php:83
+msgid "There was an error. Contact the site administrator."
+msgstr ""
+
+#: ../includes/class-job-listing.php:181
+msgid "A user or agent requested a job page via an external id, which was not found, while a sync was running. Maximum number of loops allowed."
+msgstr ""
+
+#: ../includes/class-job-listing.php:176
+msgid "A user or agent requested a job page via an external id, which was not found, while a sync was running. Will hold request and redirect back."
+msgstr ""
+
+#: ../includes/class-job-listing.php:187
+msgid "A user or agent requested a job page via an external id, which was not found, and we will run a sync to find the role."
+msgstr ""
+
+#: ../includes/class-job-listing.php:203
+msgid "A user or agent requested a job page via an external id, which was not found, and sync failed."
+msgstr ""
+
+#: ../includes/class-job-listing.php:217
+msgid "A user or agent requested a job page via an external id, which was not found, but sync located."
+msgstr ""
+
+#: ../includes/class-job-listing.php:299
+msgctxt "Jobs Post Type General Name"
+msgid "Job Listings"
+msgstr ""
+
+#: ../includes/class-job-listing.php:300
+msgctxt "Jobs Post Type Singular Name"
+msgid "Job Listing"
+msgstr ""
+
+#: ../includes/class-job-listing.php:302
+msgid "Add New Job"
+msgstr ""
+
+#: ../includes/class-job-listing.php:303
+msgid "Edit Job"
+msgstr ""
+
+#: ../includes/class-job-listing.php:304
+msgid "New Job"
+msgstr ""
+
+#: ../includes/class-job-listing.php:305
+msgid "View Job"
+msgstr ""
+
+#: ../includes/class-job-listing.php:306, ../includes/class-template-support.php:1350, ../templates/parts/jobs-search-field-keyword.php:72
+msgid "Search Jobs"
+msgstr ""
+
+#: ../includes/class-job-listing.php:307
+msgid "No jobs found"
+msgstr ""
+
+#: ../includes/class-job-listing.php:308
+msgid "No jobs found in Trash"
+msgstr ""
+
+#: ../includes/class-job-listing.php:310
+msgid "Job Listings"
+msgstr ""
+
+#: ../includes/class-job-listing.php:311
+msgid "Matador Jobs"
+msgstr ""
+
+#: ../includes/class-job-listing.php:340
+msgid "Jobs Listings for the Matador Jobs Board."
+msgstr ""
+
+#: ../includes/class-job-listing.php:477, ../includes/class-job-listing.php:480
+msgid "Job updated. Job listings should be updated on Bullhorn ATS. Your update will be overwritten on the next sync."
+msgstr ""
+
+#: ../includes/class-job-listing.php:478
+msgid "Custom field updated. Job listings should be updated on Bullhorn ATS. Your update will be overwritten on the next sync."
+msgstr ""
+
+#: ../includes/class-job-listing.php:479
+msgid "Custom field deleted. Job listings should be updated on Bullhorn ATS. Your update will be overwritten on the next sync."
+msgstr ""
+
+#. translators: %s: date and time of the revision
+#: ../includes/class-job-listing.php:482
+msgid "Job restored to revision from %s. Job listings should be updated on Bullhorn ATS. Your update will be overwritten on the next sync."
+msgstr ""
+
+#: ../includes/class-job-listing.php:483
+msgid "Job published. Job listings should be added only on the Bullhorn ATS. Your update will be removed on the next sync."
+msgstr ""
+
+#: ../includes/class-job-listing.php:484
+msgid "Job saved. Job listings should be added only on Bullhorn ATS. Your update will be overwritten on the next sync."
+msgstr ""
+
+#: ../includes/class-job-listing.php:485
+msgid "Job submitted. Job listings should be updated on Bullhorn ATS. Your update will be overwritten on the next sync."
+msgstr ""
+
+#. translators: placeholder for date.
+#: ../includes/class-job-listing.php:488
+msgid "Job scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#. translators: Publish box date format, see http://php.net/date
+#: ../includes/class-job-listing.php:490
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../includes/class-job-listing.php:492
+msgid "Job draft updated. Job listings should be updated on Bullhorn ATS. Your update will be overwritten on the next sync."
+msgstr ""
+
+#: ../includes/class-job-listing.php:496
+msgid "View job"
+msgstr ""
+
+#: ../includes/class-job-listing.php:501
+msgid "Preview job"
+msgstr ""
+
+#: ../includes/class-job-listing.php:528
+msgid "Jobs Post Type Warning"
+msgstr ""
+
+#: ../includes/class-job-listing.php:529
+msgid "You should not add jobs to the Bullpen Jobs Board. Jobs are meant to be imported from your ATS and should be added/removed/edited there.  Jobs added via the WordPress interface will automatically be removed on the next sync."
+msgstr ""
+
+#: ../includes/class-job-listing.php:783
+msgid "Bullhorn ID"
+msgstr ""
+
+#: ../includes/class-job-listing.php:865
+msgid "Edit the Job in Bullhorn"
+msgstr ""
+
+#: ../includes/class-job-listing.php:874
+msgid "Sync this Job"
+msgstr ""
+
+#: ../includes/class-job-listing.php:904
+msgid "Sync Jobs Now"
+msgstr ""
+
+#: ../includes/class-job-listing.php:1144
+msgid "This feed is unavailable."
+msgstr ""
+
+#: ../includes/class-job-listing.php:1142
+msgid "This feed is disabled by Matador Jobs for Job Listing posts."
+msgstr ""
+
+#. translators: Placeholder for Uppercased Taxonomy Name (Plural)
+#: ../includes/class-job-taxonomies.php:141
+msgctxt "Uppercased Taxonomy Name Plural, eg: \"Job Categories\""
+msgid "Job %1$s"
+msgstr ""
+
+#. translators: Placeholder for Uppercased Taxonomy Name (Singular)
+#: ../includes/class-job-taxonomies.php:143
+msgctxt "Uppercased Taxonomy Name Singular, eg: \"Job Category\""
+msgid "Job %1$s"
+msgstr ""
+
+#. translators: Placeholder for Uppercased Taxonomy Name (Plural)
+#: ../includes/class-job-taxonomies.php:145
+msgid "Job %1$s"
+msgstr ""
+
+#. translators: Placeholder for Uppercased Taxonomy Name (Plural)
+#: ../includes/class-job-taxonomies.php:147
+msgid "All %1$s"
+msgstr ""
+
+#. translators: Placeholder for Uppercased Taxonomy Name (Singular)
+#: ../includes/class-job-taxonomies.php:149
+msgid "Edit Job %1$s"
+msgstr ""
+
+#. translators: Placeholder for Uppercased Taxonomy Name (Singular)
+#: ../includes/class-job-taxonomies.php:151
+msgid "View Job %1$s"
+msgstr ""
+
+#. translators: Placeholder for Uppercased Taxonomy Name (Singular)
+#: ../includes/class-job-taxonomies.php:153
+msgid "Update Job %1$s"
+msgstr ""
+
+#. translators: Placeholder for Uppercased Taxonomy Name (Singular)
+#: ../includes/class-job-taxonomies.php:155
+msgid "Add New %1$s"
+msgstr ""
+
+#. translators: Placeholder for Uppercased Taxonomy Name (Singular)
+#: ../includes/class-job-taxonomies.php:157
+msgid "New %1$s Name"
+msgstr ""
+
+#: ../includes/class-job-taxonomies.php:158
+msgid "Separate each with commas"
+msgstr ""
+
+#: ../includes/class-job-taxonomies.php:159
+msgid "Add or Remove"
+msgstr ""
+
+#. translators: Placeholder for Taxonomy Name (Plural)
+#: ../includes/class-job-taxonomies.php:161
+msgid "Choose from the most common %1$s"
+msgstr ""
+
+#: ../includes/class-job-taxonomies.php:162
+msgid "Popular"
+msgstr ""
+
+#: ../includes/class-job-taxonomies.php:163, ../templates/parts/jobs-search-field-submit.php:47
+msgid "Search"
+msgstr ""
+
+#. translators: Placeholder for Uppercased Taxonomy Name (Plural)
+#: ../includes/class-job-taxonomies.php:165
+msgid "No %1$s Found"
+msgstr ""
+
+#. translators: Placeholder for name of Taxonomy (already translated)
+#: ../includes/class-job-taxonomies.php:330
+msgid "Recount %s"
+msgstr ""
+
+#: ../includes/class-scheduled-events.php:160
+msgid "The \"Matador Next Scheduled Event\" was not set. If you see this log message regularly, contact Matador support."
+msgstr ""
+
+#. translators: Placeholder is for the unexpected method name
+#: ../includes/class-scheduled-events.php:237
+msgid "Invalid method (%s) called on jobs_sync()"
+msgstr ""
+
+#: ../includes/class-scheduled-events.php:234
+msgid "Automatic Sync Starting"
+msgstr ""
+
+#: ../includes/class-scheduled-events.php:232
+msgid "Manual Sync Starting"
+msgstr ""
+
+#: ../includes/class-scheduled-events.php:257
+msgid "Bullhorn Automatic Jobs Sync failed. See log for details."
+msgstr ""
+
+#: ../includes/class-scheduled-events.php:371
+msgid "Manual Application Sync Start"
+msgstr ""
+
+#: ../includes/class-scheduled-events.php:302
+msgid "Batch Application Sync Start"
+msgstr ""
+
+#: ../includes/class-scheduled-events.php:367
+msgid "No applications found to sync"
+msgstr ""
+
+#. translators: placeholder is the wpid of the post type "application" to be synced
+#: ../includes/class-scheduled-events.php:375
+msgid "Syncing local application with ID %s"
+msgstr ""
+
+#: ../includes/class-scheduled-events.php:400
+msgid "Every Ten Minutes (for Matador Jobs)"
+msgstr ""
+
+#: ../includes/class-scripts.php:149
+msgid "This field is required."
+msgstr ""
+
+#: ../includes/class-scripts.php:150
+msgid "Please fix this field."
+msgstr ""
+
+#: ../includes/class-scripts.php:151
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: ../includes/class-scripts.php:152
+msgid "Please enter a valid URL."
+msgstr ""
+
+#: ../includes/class-scripts.php:153
+msgid "Please enter a valid date."
+msgstr ""
+
+#: ../includes/class-scripts.php:154
+msgid "Please enter a valid date (ISO)."
+msgstr ""
+
+#: ../includes/class-scripts.php:155
+msgid "Please enter a valid number."
+msgstr ""
+
+#: ../includes/class-scripts.php:156
+msgid "Please enter only digits."
+msgstr ""
+
+#: ../includes/class-scripts.php:157
+msgid "Please enter the same value again."
+msgstr ""
+
+#. translators: {0} is a javascript number placeholder
+#: ../includes/class-scripts.php:159
+msgid "Please enter no more than {0} characters."
+msgstr ""
+
+#. translators: {0} is a javascript number placeholder
+#: ../includes/class-scripts.php:161
+msgid "Please enter at least {0} characters."
+msgstr ""
+
+#. translators: {0} and {1} are javascript number placeholders
+#: ../includes/class-scripts.php:163
+msgid "Please enter a value between {0} and {1} characters long."
+msgstr ""
+
+#. translators: {0} and {1} are javascript number placeholders
+#: ../includes/class-scripts.php:165
+msgid "Please enter a value between {0} and {1}."
+msgstr ""
+
+#. translators: {0} is a javascript number placeholder
+#: ../includes/class-scripts.php:167
+msgid "Please enter a value less than or equal to {0}."
+msgstr ""
+
+#. translators: {0} is a javascript number placeholder
+#: ../includes/class-scripts.php:169
+msgid "Please enter a value greater than or equal to {0}."
+msgstr ""
+
+#. translators: {0} is a javascript number placeholder
+#: ../includes/class-scripts.php:171
+msgid "Please submit files smaller than {0} megabytes."
+msgstr ""
+
+#: ../includes/class-scripts.php:172
+msgid "Please submit a file with a file extension from the list."
+msgstr ""
+
+#: ../includes/class-scripts.php:173
+msgid "Please mark the reCAPTCHA checkbox."
+msgstr ""
+
+#: ../includes/class-shortcodes.php:107
+msgid "You cannot use the [matador_job_field] shortcode without a \"name\" argument."
+msgstr ""
+
+#: ../includes/class-shortcodes.php:161, ../includes/class-shortcodes.php:287, ../includes/admin/class-settings-fields.php:556
+msgid "Job Title"
+msgstr ""
+
+#: ../includes/class-shortcodes.php:424
+msgid "You cannot use the [matador_categories] shortcode because the Category taxonomy is not available."
+msgstr ""
+
+#: ../includes/class-shortcodes.php:445
+msgid "You cannot use the [matador_locations] shortcode because the Location taxonomy is not available."
+msgstr ""
+
+#: ../includes/class-shortcodes.php:470
+msgid "You cannot use the [matador_types] shortcode because the Type taxonomy is not available."
+msgstr ""
+
+#: ../includes/class-shortcodes.php:515
+msgid "You cannot use the [matador_application] shortcode if you've disabled Application Processing."
+msgstr ""
+
+#: ../includes/class-template-support.php:74
+msgid "start output"
+msgstr ""
+
+#: ../includes/class-template-support.php:456
+msgctxt "A job posted very recently, in the last hour or less"
+msgid "Just now"
+msgstr ""
+
+#: ../includes/class-template-support.php:452
+msgctxt "Age in days, 1 day, relative term"
+msgid "Yesterday"
+msgstr ""
+
+#: ../includes/class-template-support.php:639
+msgctxt "Label for Location in Job Info block"
+msgid "Location:"
+msgstr ""
+
+#: ../includes/class-template-support.php:640
+msgctxt "Label for Remote Job in Job Info block"
+msgid "Remote:"
+msgstr ""
+
+#: ../includes/class-template-support.php:641
+msgctxt "Label for employmentType in Job Info block"
+msgid "Type:"
+msgstr ""
+
+#: ../includes/class-template-support.php:642
+msgctxt "Label for Job ID in Job Info block. Often followed immediately by the number prepended by an octothorpe/number sign. e.g.: Job #12345"
+msgid "Job"
+msgstr ""
+
+#: ../includes/class-template-support.php:655
+msgctxt "Label for salary string in job info block"
+msgid "Salary"
+msgstr ""
+
+#: ../includes/class-template-support.php:858
+msgid "The matador_{get}_the_general_application_url() functions will produce no output until you've set the General Application page in settings."
+msgstr ""
+
+#: ../includes/class-template-support.php:886
+msgid "Functions referencing the General Application will produce no output until you've set the General Application page in settings."
+msgstr ""
+
+#: ../includes/class-template-support.php:965
+msgid "View Jobs"
+msgstr ""
+
+#: ../includes/class-template-support.php:974, ../includes/class-template-support.php:984, ../includes/class-template-support.php:945
+msgid "Apply Now"
+msgstr ""
+
+#: ../includes/class-template-support.php:975, ../includes/admin/class-settings-fields.php:477
+msgid "More Info"
+msgstr ""
+
+#: ../includes/class-template-support.php:926
+msgid "More Jobs"
+msgstr ""
+
+#: ../includes/class-template-support.php:935
+msgid "More About this Job"
+msgstr ""
+
+#: ../includes/class-template-support.php:936, ../includes/class-template-support.php:946, ../includes/class-template-support.php:955
+msgid "See All Jobs"
+msgstr ""
+
+#: ../includes/class-template-support.php:1660
+msgid "Title"
+msgstr ""
+
+#: ../includes/class-template-support.php:1661
+msgid "Apply"
+msgstr ""
+
+#: ../includes/class-template-support.php:1671
+msgid "Description"
+msgstr ""
+
+#: ../includes/class-template-support.php:1672
+msgid "Job Info"
+msgstr ""
+
+#: ../includes/class-variables.php:55
+msgid "DOC, DOCX, PDF, HTML, and TXT"
+msgstr ""
+
+#: ../includes/class-variables.php:178
+msgctxt "Job Category Singular Name."
+msgid "category"
+msgstr ""
+
+#: ../includes/class-variables.php:179
+msgctxt "Job Category Plural Name."
+msgid "categories"
+msgstr ""
+
+#: ../includes/class-variables.php:193
+msgctxt "Job Location Singular Name."
+msgid "location"
+msgstr ""
+
+#: ../includes/class-variables.php:194
+msgctxt "Job Location Plural Name."
+msgid "locations"
+msgstr ""
+
+#: ../includes/class-variables.php:201
+msgctxt "Job Type Singular Name."
+msgid "type"
+msgstr ""
+
+#: ../includes/class-variables.php:202
+msgctxt "Job Type Plural Name."
+msgid "types"
+msgstr ""
+
+#: ../includes/admin/class-admin-notices.php:108
+msgid "Welcome to Matador Jobs!"
+msgstr ""
+
+#: ../includes/admin/class-admin-notices.php:108
+msgid "To get started, connect your site to Bullhorn!"
+msgstr ""
+
+#: ../includes/admin/class-admin-notices.php:111, ../src/Core/Monitor.php:235
+msgid "Open Bullhorn Connection Assistant"
+msgstr ""
+
+#: ../includes/admin/class-admin-notices.php:122
+msgid "Matador is currently syncing jobs and applications. Reload your admin page for updates."
+msgstr ""
+
+#: ../includes/admin/class-admin-notices.php:129
+msgid "Matador is currently syncing applications. Reload your application page for updates."
+msgstr ""
+
+#: ../includes/admin/class-admin-notices.php:189, ../includes/admin/templates/bullhorn-connection-assistant-complete.php:159
+msgid "Your Matador Jobs job board URL on this site is not set in Bullhorn as your \"Career Portal\" URL. If this site operates as your primary job board, this will impact the performance of other Bullhorn integrations."
+msgstr ""
+
+#. translators: placeholder is a URL.
+#: ../includes/admin/class-admin-notices.php:191
+msgid "If this site is your primary job board, your careerPortalDomainRoot should be %s."
+msgstr ""
+
+#: ../includes/admin/class-admin-notices.php:192, ../includes/admin/templates/bullhorn-connection-assistant-complete.php:162
+msgid "See our help documentation site for more information."
+msgstr ""
+
+#: ../includes/admin/class-admin-notices.php:197, ../includes/admin/templates/bullhorn-connection-assistant-complete.php:167
+msgid "Retest"
+msgstr ""
+
+#: ../includes/admin/class-admin-notices.php:201
+msgid "Remind Me Tomorrow"
+msgstr ""
+
+#: ../includes/admin/class-admin-notices.php:205
+msgid "Help Doc Article"
+msgstr ""
+
+#: ../includes/admin/class-admin-tasks.php:119, ../includes/admin/class-admin-tasks.php:147
+msgid "An admin initiated a manual sync, but it was ignored as another sync is currently running."
+msgstr ""
+
+#: ../includes/admin/class-admin-tasks.php:120
+msgid "Cannot start a new manual sync while a sync is currently running."
+msgstr ""
+
+#: ../includes/admin/class-admin-tasks.php:107
+msgid "An admin initiated a manual sync."
+msgstr ""
+
+#: ../includes/admin/class-admin-tasks.php:155
+msgid "An admin initiated a manual sync for local applications."
+msgstr ""
+
+#: ../includes/admin/class-admin-tasks.php:152
+msgid "An admin initiated a manual sync for local application %s"
+msgstr ""
+
+#: ../includes/admin/class-admin-tasks.php:148
+msgid "Cannot start a new batch application sync while a sync is currently running."
+msgstr ""
+
+#: ../includes/admin/class-admin-tasks.php:194
+msgid "An admin initiated a delete all routine for synced local applications."
+msgstr ""
+
+#: ../includes/admin/class-admin-tasks.php:285
+msgid "To attempt a login, you must have an authorized site."
+msgstr ""
+
+#: ../includes/admin/class-admin-tasks.php:282, ../includes/bullhorn/class-bullhorn-connection.php:88
+msgid "Login into Bullhorn failed see log for more info."
+msgstr ""
+
+#: ../includes/admin/class-admin-tasks.php:348, ../includes/admin/class-settings-validators.php:103, ../includes/admin/templates/form-fields/field-bullhorn-client.php:52
+msgid "Your Bullhorn Client ID is invalid. Double check you entered it correctly, and if so, you may need to submit a support ticket to Bullhorn."
+msgstr ""
+
+#: ../includes/admin/class-admin-tasks.php:366
+msgid "Matador Jobs Cron Check:"
+msgstr ""
+
+#: ../includes/admin/class-admin-tasks.php:451
+msgid "Matador Bullhorn careerPortalDomainRoot check skipped, detected a local development site."
+msgstr ""
+
+#: ../includes/admin/class-admin-tasks.php:458
+msgid "Matador Bullhorn careerPortalDomainRoot check skipped, detected a staging or development site."
+msgstr ""
+
+#: ../includes/admin/class-admin-tasks.php:476
+msgid "Matador Bullhorn careerPortalDomainRoot check failed, unknown error."
+msgstr ""
+
+#: ../includes/admin/class-admin-tasks.php:485
+msgid "Matador Bullhorn careerPortalDomainRoot check failed, API error."
+msgstr ""
+
+#: ../includes/admin/class-admin-tasks.php:493
+msgid "Matador Bullhorn careerPortalDomainRoot check, match found. Will validate tomorrow."
+msgstr ""
+
+#: ../includes/admin/class-bullhorn-connection-assistant.php:79, ../includes/admin/class-bullhorn-connection-assistant.php:80
+msgctxt "Matador Bullhorn Connection Assistant Admin Page Title"
+msgid "Bullhorn Connection Assistant"
+msgstr ""
+
+#: ../includes/admin/class-bullhorn-connection-assistant.php:125
+msgid "Bullhorn API Connection Assistant"
+msgstr ""
+
+#: ../includes/admin/class-event-log.php:88
+msgid "Matador did not find a log file directory and was unable to create one. Please add the folder <kbd>wp-content/matador_uploads</kbd> with permissions <kbd>644</kbd>"
+msgstr ""
+
+#: ../includes/admin/class-event-log.php:126
+msgid "Unknown Error."
+msgstr ""
+
+#: ../includes/admin/class-event-log.php:265
+msgid "No Log files found"
+msgstr ""
+
+#: ../includes/admin/class-event-log.php:312
+msgid "Bad hashed log file removed. File: "
+msgstr ""
+
+#: ../includes/admin/class-event-log.php:308
+msgid "Expired log removed. File: "
+msgstr ""
+
+#: ../includes/admin/class-options.php:68
+msgctxt "Matador Settings Page Title"
+msgid "Settings"
+msgstr ""
+
+#: ../includes/admin/class-options.php:80
+msgctxt "Matador Settings Page Menu Label"
+msgid "Settings"
+msgstr ""
+
+#: ../includes/admin/class-options.php:157
+msgid "View/Change in wp-config.php"
+msgstr ""
+
+#: ../includes/admin/class-settings-actions.php:73
+msgid "A setting that affects rewrites was changed. Rewrites will be flushed on next admin load."
+msgstr ""
+
+#: ../includes/admin/class-settings-actions.php:121
+msgid "A setting that affects job content was changed. A full sync will will be conducted at the next scheduled time."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:87
+msgctxt "General Settings Tab Name"
+msgid "General"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:104
+msgctxt "Licensing Settings Section Name"
+msgid "Matador Jobs Pro License"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:107
+msgid "Matador License Key for Support and Updates"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:126
+msgctxt "Bullhorn API Settings Section Name."
+msgid "Bullhorn API Connection"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:133
+msgid "Bullhorn API Client ID"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:140
+msgid "Bullhorn API Client Secret Key"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:146
+msgid "Bullhorn API User ID"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:151
+msgid "Bullhorn API User Password"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:198
+msgid "Disable Career Portal URL Check"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:202
+msgid "Once per day, Matador will query Bullhorn to check if your site job board is listed as the Career Portal URL. Some sites will skip this check automatically when we detect common hints that explain it is a \"staging\" or \"development\" site. You may prevent this test and its warning messages by enabling this setting."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:213, ../includes/admin/class-settings-fields.php:802
+msgctxt "Email Settings Section Name"
+msgid "Email Settings"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:216
+msgid "Email Default From Name"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:226
+msgid "Email Default From Address"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:241
+msgctxt "General Settings Section Name"
+msgid "General Settings"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:244
+msgid "Matador Styles"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:248
+msgid "Matador Jobs comes with default styling to help it display nicely on your site. Turn these off when building customized sites."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:265
+msgctxt "Admin Notifications Section Name"
+msgid "Logging & Error Handling"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:268
+msgid "Matador Logging"
+msgstr ""
+
+#. translators: %1$s is the path to the folder with log information.
+#: ../includes/admin/class-settings-fields.php:270
+msgid "To help monitor the health of your site and its communications with Bullhorn, Matador can keep extensive logs. We recommend you keep at least 2 days of logs, though you can save up to 30 days of logs. Set to \"Off\" to disable logging."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:272, ../includes/admin/class-settings-fields.php:1068, ../includes/modules/class-google-indexing-module.php:197, ../includes/admin/templates/form-fields/field-toggle.php:57
+msgid "Off"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:273, ../includes/admin/class-settings-fields.php:1069
+msgid "1 Days"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:274, ../includes/admin/class-settings-fields.php:1070
+msgid "2 Days"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:275
+msgid "3 Days"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:276
+msgid "4 Days"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:277
+msgid "5 Days"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:278
+msgid "6 Days"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:279
+msgid "7 Days"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:280
+msgid "8 Days"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:281
+msgid "9 Days"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:282
+msgid "10 Days"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:283
+msgid "20 Days"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:284
+msgid "30 Days"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:291
+msgid "Send Admin Email Alerts"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:292
+msgid "Send an administrator an email when Matador Jobs has a major error that requires user intervention."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:298
+msgid "Admin Email Address(es)"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:299, ../includes/admin/class-settings-fields.php:837, ../includes/admin/class-settings-fields.php:844
+msgid "Separate each email with a comma. You may use the \"John Smith &lt;john@website.com&gt;\" format or just \"john@website.com\" format."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:299
+msgid "Emails may be filtered by email security protocols unless your site has email validation systems in place like DKIM. If you're not sure, use an email address from outside your domain (like at MSN, Yahoo, or Gmail)."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:318
+msgctxt "Jobs Listings Setting Tab Name"
+msgid "Job Listings"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:328
+msgctxt "Bullhorn Import Settings Section Name"
+msgid "Bullhorn Import"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:331
+msgid "Automatically Sync Jobs"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:332
+msgid "Set whether you want your site automatically check for job changes from Bullhorn in the background."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:338
+msgid "Published Status to Import"
+msgstr ""
+
+#. translators: The name of this needs to match the user's Bullhorn account setting.
+#: ../includes/admin/class-settings-fields.php:341
+msgid "\"Published -- Approved\" Jobs"
+msgstr ""
+
+#. translators: The name of this needs to match the user's Bullhorn account setting.
+#: ../includes/admin/class-settings-fields.php:343
+msgid "\"Published -- Submitted\" Jobs"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:344
+msgid "All Jobs (careful!)"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:346
+msgid "Determines which level of \"publishing\" a job must have to be imported. It is recommended to use only \"Published -- Approved\", but you may set more general rules. Caution using \"All Jobs\", as this can potentially import jobs before they're done being created."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:352
+msgid "Job Date Field"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:353
+msgid "Choose the date field that will be used as the \"Published\" date for your job."
+msgstr ""
+
+#. translators: Placeholder keeps the key name for the API field.
+#: ../includes/admin/class-settings-fields.php:356
+msgid "Date Added (%s)"
+msgstr ""
+
+#. translators: Placeholder keeps the key name for the API field.
+#: ../includes/admin/class-settings-fields.php:358
+msgid "Date Last Updated (%s)"
+msgstr ""
+
+#. translators: Placeholder keeps the key name for the API field.
+#: ../includes/admin/class-settings-fields.php:360
+msgid "Date Last Published (%s)"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:367
+msgid "Description Field"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:368
+msgid "Choose to display either the job's Description or the Public Description."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:370
+msgid "Description (Bullhorn Default)"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:371
+msgid "Public Description"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:378
+msgid "Category Field"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:379
+msgid "Choose to categorize jobs by either the single \"Published Category\" set during Publishing or by the (one or many) \"Job Categories\" defined in the Job Order."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:381
+msgid "Job Categories (multiple)"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:382
+msgid "Published Category (single)"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:389
+msgid "Location Taxonomy Term"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:390
+msgid "Choose which part of a job address should be used for the location taxonomy. The location taxonomy is used for filtering and searching jobs."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:392
+msgid "City/Locality"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:395
+msgid "Country"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:402
+msgid "\"Remote\" Location Taxonomy Term"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:403
+msgid "Add the \"Remote\" Location Taxonomy Term to a job when job is \"Remote\"/\"Work From Home\"."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:409
+msgid "Show Job Info Header"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:411
+msgid "Turn on/off the Job Info header that shows before the job description."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:423
+msgctxt "Salary Settings Section Name"
+msgid "Salary Options"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:426
+msgid "Display Salary/Pay Rate"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:428
+msgid "Display (and provide external sources, ie: Google for Jobs) information on Job Salary or Pay Rate. You may be obligated under local laws or regulations to present a Salary or Pay Rate amount or range. If this is confidential and you are permitted under law to hide them, turn this setting to \"off\". Jobs may rank higher in searches on external aggregators like Google for Jobs if a Salary or Pay Rate amount or range is provided."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:433
+msgid "Salary Range Low Field"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:450
+msgid "Select the Bullhorn field which will be used for the low value in a Salary or Pay Rate Range. If this value matches that of the high value setting, a single Salary/Pay Rate value will be presented."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:455
+msgid "Salary Range High Field"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:472
+msgid "Select the Bullhorn field which will be used for the high value in a Salary or Pay Rate Range. If this value matches that of the low value setting, a single Salary/Pay Rate value will be presented."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:478
+msgid "See this help doc for more information."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:490
+msgctxt "Jobs Structured Data Settings Name"
+msgid "Jobs Structured Data Settings"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:493
+msgid "Add Structured Data"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:495
+msgid "Structured Data is the best search engine optimization for your jobs website. Structured Data is hidden code built by and added to your jobs pages by Matador. You will not see it, but the robots that index your site for search engines like Google for Jobs and Indeed will love it."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:500
+msgid "\"Hiring Company\" Data Source"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:502
+msgid "use Client Company info"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:503
+msgid "use Hiring Agency info"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:506
+msgid "Structured Data requires a \"Hiring Company\" Name and Website Address. When this is set to \"use Client Company info\", the Client Company Name and Website set in Bullhorn will be provided. When set to \"use Hiring Agency info\", the name of this website and its URL will be provided."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:518
+msgctxt "Jobs Sortings Settings Section Name"
+msgid "Jobs Sorting Options"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:521
+msgid "Sort Jobs By"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:523
+msgid "By Date (default)"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:524
+msgid "By Name"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:525
+msgid "By Bullhorn ID"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:526
+msgid "Randomly"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:533
+msgid "Order Jobs"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:535
+msgid "Descending 9-1 (default)"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:536
+msgid "Ascending 1-9"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:550
+msgctxt "URL Slugs Settings Section Name"
+msgid "Jobs Pages URL Options"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:553
+msgid "Job Single URL Slug"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:554
+msgid "Choose how Matador constructs the URL for the job. Note: spaces and invalid characters are ignored or changed into dashes, e.g.: \"My Job Title\" becomes \"my-job-title\"."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:557
+msgid "Job Title, Bullhorn Job ID"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:558
+msgid "Bullhorn Job ID, Job Title"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:565
+msgid "Job Board Location"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:566
+msgid "Choose the page where you put the [matador_jobs] shortcode, or elect to use the WordPress \"archive\" and use your theme defaults."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:568
+msgid "Use Archive"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:573
+msgid "Job Listings Slug"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:574
+msgid "This is both the URL slug for the all jobs page and the part of the URL in front of each jobs' slug. If you job is \"my-job-title\" at \"mysite.com/my-jobs/my-job-title\", this option customizes the \"my-jobs\" part."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:590
+msgctxt "Applications Settings Tab Name"
+msgid "Applications"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:600
+msgctxt "Applications General Settings Section Name"
+msgid "Applications General Settings"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:603
+msgid "Use Matador Application Processing"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:605
+msgid "Matador has built-in support for accepting and processing applications. Turn off to use your own solution."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:610
+msgid "Submit Applicants to Bullhorn"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:611
+msgid "Matador can submit candidates to Bullhorn immediately as they apply, in a background task after they apply, or only when you manually trigger the sync. When set to \"Immediate\" processing, the user waits for the communication with Bullhorn to complete, but can send more information back in the confirmation email. When set to \"Background\" processing, ther user gets confirmation immediately, but with less information available to the confirmation email. Manual processing requires a logged in admin user to trigger."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:613
+msgid "Submit Applications to Bullhorn in the Background (Faster)"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:614
+msgid "Submit Applications to Bullhorn Immediately (Slower)"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:615
+msgid "Disable Automatic Submissions to Bullhorn (Manual Only)"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:622
+msgid "Application Method"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:623
+msgid "How would you like your visitors to access an application? You may add the application form to the bottom of the job description page, the plugin can generate an application page for you, or you can direct users to a custom WordPress page that you can use the [matador-application] or other plugin (link)."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:625
+msgid "Add Application Form to Job Detail"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:626
+msgid "Generate Application Page"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:627, ../includes/admin/class-settings-fields.php:653
+msgid "Link to Custom Page"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:634
+msgid "Custom Application Page"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:635
+msgid "Choose the custom WordPress page where application links should go to. Leaving this blank will cause the application links to go to your home page."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:636, ../includes/admin/class-settings-fields.php:643, ../includes/admin/class-settings-fields.php:662, ../includes/admin/class-settings-fields.php:769, ../includes/admin/class-settings-fields.php:783
+msgid "No page selected"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:641
+msgid "General Application Page"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:642
+msgid "Select a WordPress page where you will present a \"General Application.\" This is where job seekers will apply as a general candidate but not to a specific firm. This option may not need to be set unless using layouts the feature functions/shortcodes that reference it."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:648
+msgid "Confirmation Method"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:649
+msgid "When a user completes an application, they will redirect to a confirmation and \"thank you\" screen. You can redirect users to the job detail page with the \"thank you\" added to the top, you may redirect users to an automatically generated confirmation page, or you can direct users to a custom WordPress page where you customize the message, look, and feel."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:651
+msgid "Add Confirmation to Job Detail Page"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:652
+msgid "Generate Confirmation Page"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:660
+msgid "Custom Confirmation Page"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:661
+msgid "Choose the custom WordPress page where application confirmations should be redirected to. Leaving this blank will cause the application links to go to your home page."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:667
+msgid "\"Resume\" or \"CV\""
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:669
+msgid "as \"Resume\""
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:670
+msgid "as \"CV\""
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:671
+msgid "as \"Curriculum Vitae\""
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:674
+msgid "What does your business call the work history and education summary document?"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:679
+msgid "Default Application Fields"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:680
+msgid "By default, the checked fields will display when the application or application shortcode is shown. A simple filter added to your theme functions.php file can add more fields as well."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:683
+msgid "Email"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:684
+msgid "Phone"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:686
+msgid "Message"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:687
+msgid "Resume/CV Upload"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:694
+msgid "Use Anti-Spam Honeypot"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:696
+msgid "When set to \"On\", Matador will set a \"trap\" for internet robots that make spam. This anti-spam method may cause usability issues for visitors using screen readers, and sophisticated spam bots can sometimes bypass these protections."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:701
+msgid "Classify Applications"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:703
+msgid "as Job Submission"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:704
+msgid "as Web Response"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:706
+msgid "When a Candidate is added as an applicant to a job, they can be marked as either a Submission or Web Response. Per Bullhorn documentation, a Job Submission should occur after a candidate is \"evaluated, interviewed, and otherwise assessed, and the parties involved have agreed that the Candidate may be suitable\", whereas a Web Response \"is an informal job submission\" and pending review. Matador allows you choose from either, depending on your organization\s workflow."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:712
+msgid "Preferred New Candidate \"Owner\""
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:714
+msgid "\"API User\""
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:715
+msgid "Job's \"Owner\""
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:716
+msgid "Job's \"Published Contact Recruiter\""
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:718
+msgid "When a new candidate is created in Bullhorn, the logged in Bullhorn user \"owns\" the candidate by default. When a Bullhorn API application adds a user, the \"API User\" gets assigned ownership. Matador can attempt to assign ownership to the published response recruiter or job owner. Note: this is a preference setting, and many factors can result in the default \"API User\" being assigned, including with \"General Applications\" and more."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:729
+msgid "Prevent Duplicate Candidates"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:730
+msgid "Prior to creating a candidate record from an application, Matador will check your Bullhorn account for existing records with the matching email address and last name. When found, Matador will update that record with submitted information and apply the existing record for the job, preventing duplicate candidates. Turn off to create a new Bullhorn candidate for each application."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:736
+msgid "Use Resume Processor"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:737
+msgid "Turn on or off resume processing. When processed, Bullhorn will fill fields on the candidate's form with information from their resume/CV."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:743
+msgid "Default \"Job\" to Apply To"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:744
+msgid "When an application is shown with the \"jobs-select\" field, or if you use custom local jobs, or if you set up a general application page not tied to a job, an application may be submitted without an associated Bullhorn job to submit to. This will create just a candidate, but some people do not use the candidates screen in Bullhorn and like to have these \"general applications\" sent to a \"General Job\". If you'd like to do this, enter the the Bullhorn ID for that \"General Job\" here."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:757
+msgctxt "Applications Privacy Settings Section Name"
+msgid "Consents, Privacy, and Data Security Settings"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:760
+msgid "Require Applicant to Agree to Privacy Policy"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:761
+msgid "Matador will add a field to the application form requiring users to acknowledge your site's Privacy Policy. You are unable to remove this from the form (via shortcodes, settings) if on."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:767
+msgid "Privacy Policy Page"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:768
+msgid "Choose the custom WordPress page where your Privacy Policy page is located. Leaving this blank will result in no link to Privacy Policy being added to your forms."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:774
+msgid "Require Applicant to Agree to Terms of Service"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:775
+msgid "Matador will add a field to the application form requiring users to acknowledge your site's Terms of Service."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:781
+msgid "Terms of Service Page"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:782
+msgid "Choose the custom WordPress page where your Terms of Service is located. When selected, the Terms of Service form field will display a link to the selected page."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:788
+msgid "Delete Local Application After Sync"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:789
+msgid "If on, an application will be immediately deleted from the WordPress site as soon as a successful sync is completed by Matador."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:805
+msgid "Send Applicant Confirmation"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:806
+msgid "Send the applicant an email confirmation of their application."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:812
+msgid "Send Notice to Recruiter"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:818
+msgid "Send Recruiter Notification After Sync"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:820
+msgid "If set to Off, recruiter notification will be sent immediately after submission by the candidate. If set to On, recruiter notification will be sent after the application is saved to Bullhorn. When On, email templates can show extra data like the Bullhorn ID of the candidate and include a link to the Bullhorn record, but if there is a disconnection or error no email will be sent at all."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:825
+msgid "Recruiter Type(s) to Notify"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:826
+msgid "Recruiter notifications are sent to the recruiters assigned to the job in Bullhorn. Select which types of assigned user(s) should be notified."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:828
+msgid "Job Owner"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:829
+msgid "Assigned User(s)"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:830
+msgid "Published Contact Recruiter"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:836
+msgid "Default Recruiter"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:837
+msgid "If assigned recruiters of the selected types are not found or the applicant is applying to no role via the general application, Matador can send the notification to a default recruiter. Okay to leave unset if \"Additional Recruiters\" are defined below or you do not want emails sent when no recruiter is assigned."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:843
+msgid "Additional Recruiter(s)"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:844
+msgid "Optionally, also send copies of all applications to these email address(es)."
+msgstr ""
+
+#. translators: placeholder 1 is the Bullhorn API Field Name, placeholder 2 is a URL
+#: ../includes/admin/class-settings-fields.php:1039
+msgid "Based on your current settings, this site's %1$s should be %2$s."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:1063
+msgid "This setting is a Pro setting that requires Matador Jobs Pro."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:1071
+msgid "Longer log keeping available in Matador Jobs Pro."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:1077, ../includes/admin/class-settings-fields.php:1080, ../includes/modules/class-google-indexing-module.php:250
+msgid "This setting is a Pro setting and requires Matador Jobs Pro."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:1086
+msgid "Application processing and syncing application data to Bullhorn is a feature of Matador Jobs Pro."
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:1087
+msgid "Application Page"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:1099
+msgctxt "Get Pro Settings Tab Name"
+msgid "Get Matador Jobs Pro"
+msgstr ""
+
+#: ../includes/admin/class-settings-fields.php:1109
+msgctxt "Go Pro Settings Section Name"
+msgid "Get More Out of Matador Jobs"
+msgstr ""
+
+#. translators:: the elsewhere translated name of the taxonomy is the placeholder.
+#: ../includes/admin/class-settings-fields.php:1195
+msgid "%1$s URL Slug"
+msgstr ""
+
+#: ../includes/admin/class-settings-validators.php:163
+msgid "The page does not exist."
+msgstr ""
+
+#: ../includes/admin/class-settings-validators.php:148
+msgid "The submitted field was not a page."
+msgstr ""
+
+#: ../includes/admin/class-settings-validators.php:156
+msgid "This page is not published. Publish it first."
+msgstr ""
+
+#: ../includes/admin/class-settings.php:112
+msgid "All options must be declared before they can be saved. Option submitted: "
+msgstr ""
+
+#: ../includes/admin/class-settings.php:269
+msgid "Matador Settings saved."
+msgstr ""
+
+#: ../includes/admin/class-updater.php:143
+msgid "MatadorJobs.com licensing service responded with error. Please try again later."
+msgstr ""
+
+#: ../includes/admin/class-updater.php:136
+msgid "Cannot reach MatadorJobs.com licensing service due to internal error. WordPress error code %1$s and error message \"%2$s.\""
+msgstr ""
+
+#: ../includes/admin/class-updater.php:162
+msgid "Matador Jobs Pro activation request responded with: %s"
+msgstr ""
+
+#: ../includes/admin/class-updater.php:183
+msgid "Deactivating license key %s from url %s."
+msgstr ""
+
+#: ../includes/admin/class-updater.php:273
+msgid "Your license key is expired. <a href=\"%s\" target=\"_blank\">Renew your license</a>."
+msgstr ""
+
+#: ../includes/admin/class-updater.php:277
+msgid "Your license key has been disabled. This is often due to a refund or billing issue."
+msgstr ""
+
+#: ../includes/admin/class-updater.php:280
+msgid "Invalid license."
+msgstr ""
+
+#: ../includes/admin/class-updater.php:284
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: ../includes/admin/class-updater.php:287
+msgid "This appears to be an invalid license key for this item."
+msgstr ""
+
+#: ../includes/admin/class-updater.php:291
+msgid "Your license key has reached its activation limit. <a href=\"%s\" target=\"_blank\">Manage Your License</a>."
+msgstr ""
+
+#: ../includes/admin/class-updater.php:294
+msgid "Your license is valid and activated. Your site will receive automatic updates."
+msgstr ""
+
+#: ../includes/admin/class-updater.php:297
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: ../includes/admin/class-upgrade.php:46
+msgid "<p>Matador Jobs 3.5.6 corrected an issue that may require you to update your theme. Please see our <a href=\"https://matadorjobs.com/support/documentation/upgrading-to-3-5-6/\" target=\"_blank\">upgrade guide</a> before completing the upgrade. The upgrade is irreversible. The upgrade will be automatically applied with version 3.7.0.</p>"
+msgstr ""
+
+#: ../includes/admin/class-upgrade.php:84
+msgctxt "Upgrade Matador Admin Page Title"
+msgid "Upgrade Matador"
+msgstr ""
+
+#: ../includes/admin/class-upgrade.php:97
+msgctxt "Upgrade Matador Admin Page Menu Label"
+msgid "Upgrade"
+msgstr ""
+
+#: ../includes/admin/class-upgrade.php:142
+msgid "Please click here to complete the Matador Jobs upgrade."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-candidate.php:199
+msgid "We passed bad data to the save candidate function the data was: "
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-candidate.php:224
+msgid "We got an error when creating a remote candidate the returned error was: "
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-candidate.php:222
+msgid "We got an error when updating a remote candidate (%s) the returned error was: "
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-candidate.php:452
+msgid "We didn't find the id passed to primarySkills"
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-candidate.php:574
+msgid "The secondaryOwner(s) ID(s) do not match Bullhorn users. Will skip."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-candidate.php:580
+msgid "The secondaryOwner ID matches the primary owner ID. Will skip."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-candidate.php:624
+msgid "Requesting Bullhorn users data."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-candidate.php:671
+msgid "Bullhorn request corporate users operation timed out"
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-candidate.php:677
+msgid "Bullhorn request corporate users encountered an error. This may impact the remainder of the sync routine."
+msgstr ""
+
+#. translators: Placeholder is for number of found companies.
+#: ../includes/bullhorn/class-bullhorn-candidate.php:691
+msgid "Bullhorn request corporate users found %1$s corporate users."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-candidate.php:685
+msgid "Bullhorn request corporate users found no corporate users."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-candidate.php:729
+msgid "We didn't find the id passed to categories"
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-candidate.php:787
+msgid "We didn't find the id passed to specialties"
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-candidate.php:845
+msgid "We didn't find the id passed to businessSectors"
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-candidate.php:1205
+msgid "Parse resume cannot be called without a file."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-candidate.php:1215
+msgid "Resume/CV File Size: "
+msgstr ""
+
+#. translators: 1. Submitted file size in mb. 2. Max allowed file size in mb.
+#: ../includes/bullhorn/class-bullhorn-candidate.php:1242
+msgid "Resume/CV file size exceeds Bullhorn limit of %1$smb. Will not submit resume file to Bullhorn for processing."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:257
+msgid "Invalid credentials were provided to credentials update."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:264
+msgid "An invalid token type was provided to a credentials update."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:311
+msgid "Checking Bullhorn Client ID."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:398
+msgid "A redirect URI check was indeterminate because of a missing valid Client ID or Client Secret."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:452
+msgid "A redirect URI check yielded an Error."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:448
+msgid "A redirect URI check yielded a WP error"
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:430
+msgid "A redirect URI check yielded a bad Client ID"
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:441
+msgid "A redirect URI check yielded a valid Redirect URI."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:517
+msgid "User initiated an authorization for Bullhorn."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:566
+msgid "An authorization was attempted with missing or unsaved API credentials. At least Client ID and Client Secret are required."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:557
+msgid "A complete authorization is being sent to Bullhorn."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:555
+msgid "A manual authorization is required. User will be redirected."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:592
+msgid "System initiated an automatic authorization attempt."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:601
+msgid "System determined settings are incomplete and we cannot support an automatic authorization attempt."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:608
+msgid "System determined the redirect URI is not set at Bullhorn, cannot automatically reauthorize."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:613
+msgid "System determined the Client ID is invalid, cannot automatically reauthorize."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:616
+msgid "System determined site is able to support automatic reauthorization attempt."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:663
+msgid "Automatic reauthorization failed due to site rejecting authorization callback. Will retry later, but if this persists, please review your server configuration."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:676
+msgid "Automatic reauthorization error code received from Bullhorn. Error: "
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:672
+msgid "Automatic reauthorization code retrieved. Will log in."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:702
+msgid "Automatic reauthorization failed due to invalid username or password."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:716
+msgid "Automatic reauthorization failed due to user action required at Bullhorn Login Screen."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:720
+msgid "Automatic reauthorization failed due to unknown reason. Will try again on next scheduled sync."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:653
+msgid "Automatic reauthorization failed due to WordPress Remote error. Will retry later, but if this persists, please review your server configuration."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:767
+msgid "Cannot authorize without credentials."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:834
+msgid "Authorization failed due to a timeout when your site was accessing Bullhorn"
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:822
+msgid "Bullhorn could not authorize your site due to an API Internal Server error."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:816
+msgid "Bullhorn could not authorize your site due to a bad request: "
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:855
+msgid "Starting Bullhorn Refresh Token."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:869
+msgid "Refreshing a token requires existing credentials. User intervention required."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:873
+msgid "Refreshing a token requires API Client ID. User intervention required."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:877
+msgid "Refreshing a token requires API Secret. User intervention required."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:899
+msgid "Request to refresh token was rejected or timed out. Bullhorn may be down. Error: "
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:931
+msgid "Bullhorn refresh token failed with other error: "
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:931
+msgid "HTTP Code"
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:928, ../includes/bullhorn/class-bullhorn-connection.php:921
+msgid "Bullhorn refresh token failed with error: "
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:909
+msgid "Bullhorn Refresh Token complete."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:945
+msgid "You are disconnected from Bullhorn. We were unable to refresh the token and could not recover the connection."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:988
+msgid "Logging into Bullhorn."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:996, ../includes/bullhorn/class-bullhorn-connection.php:997
+msgid "Site is not authorized to connect with Bullhorn. User intervention is required."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:1008
+msgid "Login failed to Bullhorn, unable to refresh token."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:1026
+msgid "Login failed due to timeout."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:1058
+msgid "Error unknown"
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:1063
+msgid "Login failed to Bullhorn error: "
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:1053
+msgid "Successfully logged into Bullhorn."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:1089
+msgid "Bullhorn requests require a logged in instance."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:1092
+msgid "Bullhorn requests require a method and not null params array."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:1095
+msgid "Bullhorn requests require a valid HTTP method."
+msgstr ""
+
+#. translators: Placeholder is for API Method call.
+#: ../includes/bullhorn/class-bullhorn-connection.php:1099
+msgid "Starting Bullhorn request to endpoint %s."
+msgstr ""
+
+#. translators: placeholder is for the API URL call
+#: ../includes/bullhorn/class-bullhorn-connection.php:1120
+msgid "Initiating Bullhorn %s Request to URL %s"
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:1148
+msgid "Bullhorn request timed out."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:1142
+msgid "Completed Bullhorn request to endpoint %s."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:1171
+msgid "Method called with invalid parameters."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:1195
+msgid "The content is missing"
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:1180
+msgid "The file path was not set or invalid."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-connection.php:1208
+msgid "The file type was invalid."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-corporation.php:85
+msgid "We were unable to fetch companies from Bullhorn. See your logs for more information"
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-import.php:91
+msgid "Starting Sync with bullhorn."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-import.php:101
+msgid "Bullhorn not logged in and cannot import."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-import.php:141
+msgid "Bullhorn Jobs Sync completed successfully at "
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-import.php:143
+msgid "Finished Sync with bullhorn."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-import.php:118
+msgid "We encountered an error during sync and ended sync early. Will try again later."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-import.php:221, ../src/Sync/Bullhorn/Jobs.php:214, ../src/Sync/Bullhorn/Jobs.php:313
+msgid "Operation failed for an unknown reason. Raw response data will be output. Please contact Matador Support."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-import.php:219, ../src/Sync/Bullhorn/Jobs.php:212, ../src/Sync/Bullhorn/Jobs.php:311
+msgid "Bullhorn Request Jobs failed due to Bullhorn error. Will stop routine and try again later. Error message: %s"
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-import.php:217, ../src/Sync/Bullhorn/Jobs.php:210, ../src/Sync/Bullhorn/Jobs.php:309
+msgid "Operation timed out. Will try again."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-import.php:228, ../src/Sync/Bullhorn/Jobs.php:229
+msgid "Sync found no eligible jobs for import."
+msgstr ""
+
+#. translators: Placeholder is for number of found jobs.
+#: ../includes/bullhorn/class-bullhorn-import.php:234, ../src/Sync/Bullhorn/Jobs.php:237
+msgid "Sync found %1$s jobs."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-import.php:329
+msgid "Matador found duplicate entries for your jobs. Will remove newest copies."
+msgstr ""
+
+#. translators: Placeholder(s) are for numeric ID's of local entry (WP Post) and remote entry (ie: Bullhorn Job)
+#: ../includes/bullhorn/class-bullhorn-import.php:333
+msgid "Removing duplicate local entry #%1$s for remote id #%2$s."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-import.php:339
+msgid "No existing jobs were found"
+msgstr ""
+
+#. translators: placeholder is number of jobs found.
+#: ../includes/bullhorn/class-bullhorn-import.php:345
+msgid "%s existing jobs were found"
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-import.php:501
+msgid "Starting taxonomies sync."
+msgstr ""
+
+#. translators: Placeholder for datettime.
+#: ../includes/bullhorn/class-bullhorn-import.php:510
+msgid "Finished Category Sync with bullhorn."
+msgstr ""
+
+#. translators: placeholder for organization ID
+#: ../includes/bullhorn/class-bullhorn-import.php:544
+msgid "Requesting organization URL for organization id #%s"
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-import.php:566
+msgid "Call to ClientCorporation failed. Client Corporation data is set to blank."
+msgstr ""
+
+#. translators:: placeholder 1 is Job ID
+#: ../includes/bullhorn/class-bullhorn-import.php:609
+msgid "Bullhorn Job #%1$s is was in recent synced list skipping this time."
+msgstr ""
+
+#. translators: Placeholders are for Bullhorn ID
+#: ../includes/bullhorn/class-bullhorn-import.php:696, ../src/Sync/Bullhorn/Jobs.php:455
+msgid "Bullhorn Job #%1$s is not created."
+msgstr ""
+
+#. translators: Placeholders are for Bullhorn ID
+#: ../includes/bullhorn/class-bullhorn-import.php:701, ../src/Sync/Bullhorn/Jobs.php:460
+msgid "Bullhorn Job #%1$s is new and will be added."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-import.php:663, ../src/Sync/Bullhorn/Jobs.php:428
+msgid "Bullhorn Job #%1$s exists as WP post #%2$s and is skipped."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-import.php:669
+msgid "Bullhorn Job #%1$s was not modified since last import skipping save."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-import.php:678, ../src/Sync/Bullhorn/Jobs.php:438
+msgid "Bullhorn Job #%1$s exists as WP post #%2$s and is updated."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-import.php:675, ../src/Sync/Bullhorn/Jobs.php:434
+msgid "Bullhorn Job #%1$s exists as WP post #%2$s and is force updated due to user action."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-import.php:718, ../src/Sync/Bullhorn/Jobs.php:475
+msgid "Unable to save job."
+msgstr ""
+
+#. translators: Placeholder is Job ID number.
+#: ../includes/bullhorn/class-bullhorn-import.php:728, ../src/Sync/Bullhorn/Jobs.php:479
+msgid "Bullhorn Job #%1$s has been imported."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-import.php:881
+msgid "More than 5 terms doing a full term sync"
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-import.php:1460
+msgid "Remote"
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-import.php:2040
+msgid "Requesting currency Format"
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-import.php:2101
+msgid "Requesting user data"
+msgstr ""
+
+#. translators: placeholder is Job ID
+#: ../includes/bullhorn/class-bullhorn-import.php:2140
+msgid "Delete Job(%1$s)."
+msgstr ""
+
+#: ../includes/bullhorn/class-bullhorn-lead.php:350
+msgid "Call to create note returned an error: "
+msgstr ""
+
+#: ../includes/modules/class-campaign-tracking.php:137
+msgid "Collect User Traffic Information"
+msgstr ""
+
+#: ../includes/modules/class-campaign-tracking.php:138
+msgid "Depending on user settings, Matador can collect information about inbound user traffic and include that in the \"source\" field for new candidate and new job submissions. Note: may require additional setup for GDPR compliance."
+msgstr ""
+
+#: ../includes/modules/class-campaign-tracking.php:730
+msgctxt "The name of the source when a direct or unknown referrer. Should match Google Analytics for this language"
+msgid "direct(none)"
+msgstr ""
+
+#: ../includes/modules/class-campaign-tracking.php:731
+msgctxt "The name of the source when a social network referrer. Should match Google Analytics for this language"
+msgid "social"
+msgstr ""
+
+#: ../includes/modules/class-campaign-tracking.php:732
+msgctxt "The name of the source when a known non-social network, non-search referrer. Should match Google Analytics for this language"
+msgid "referral"
+msgstr ""
+
+#: ../includes/modules/class-campaign-tracking.php:733
+msgctxt "The name of the source when an organic search referrer. Should match Google Analytics for this language"
+msgid "organic"
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-api.php:109
+msgid "Unable to connect to Google API Login due to missing keys. Set them in your settings file."
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-api.php:133
+msgid "The key file is bad"
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-api.php:148, ../includes/modules/class-google-indexing-api.php:235
+msgid "Calling Google API with:"
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-api.php:154, ../includes/modules/class-google-indexing-api.php:241
+msgid "Got back from Google APIs:"
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-api.php:158
+msgid "Unable to reach Google API Login servers for new login token. Error: "
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-api.php:162
+msgid "Got back an Error with this message:"
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-api.php:171
+msgid "We failed to get a token from the Google API Error: "
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-api.php:175
+msgid "We failed to get a token from the Google API check for an error message in the data returned from Google above."
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-api.php:183, ../includes/modules/class-google-indexing-api.php:187
+msgid "Google API Login request complete. Saved new login token."
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-api.php:265
+msgid "Successfully reported new URL to Google Indexing API."
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-api.php:269
+msgid "It worked you can now turn Google Indexing API on :-)"
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-api.php:255, ../includes/modules/class-google-indexing-api.php:315
+msgid "Google Indexing API request failed and responded with an error. Error: "
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-api.php:259
+msgid "We failed to add the URL to the index. Please look at the error message and check our Doc for fixes for common errors "
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-api.php:261
+msgid "DO NOT turn Google Indexing on until you have solved this error!!"
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-api.php:247, ../includes/modules/class-google-indexing-api.php:308
+msgid "Unable to reach Google Indexing API. Error: "
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-api.php:317
+msgid "Successfully reported expired URL to Google Indexing API."
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-module.php:177
+msgid "The Googlebot Indexed Job Posting with WordPress ID %s"
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-module.php:194
+msgid "Log Googlebot Visits to Jobs"
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-module.php:198
+msgid "All Googlebot Traffic"
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-module.php:199
+msgid "Only Googlebot Traffic After Indexing API Call"
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-module.php:202
+msgid "Whether Matador should log Googlebot visits to Job Listings. Great for observing response time to jobs. (May affect site performance if set to \"All\".)"
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-module.php:207
+msgid "Use Google Indexing API"
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-module.php:210
+msgid "Whether Matador will notify Google immediately about new, updated, or removed jobs, which means faster listings on Google for Jobs."
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-module.php:215
+msgid "Google Indexing API private_key:"
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-module.php:218
+msgid "Copy & Paste the private_key value from your Google Indexing API keys file. Without enclosing quotes"
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-module.php:218
+msgid "View our Help Docs page on this topic."
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-module.php:224
+msgid "Google Indexing API client_email:"
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-module.php:227
+msgid "Copy & Paste the client_email value from your Google Indexing API keys file. Without enclosing quotes"
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-module.php:227
+msgid "After saving use this page to test it works."
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-module.php:235
+msgid "This field is disabled until you have entered your API key and email."
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-module.php:236
+msgid "(You may need to reload the page once after saving.)"
+msgstr ""
+
+#: ../includes/modules/class-google-indexing-testing.php:29, ../includes/modules/class-google-indexing-testing.php:30
+msgid "Welcome"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-authorize.php:21, ../includes/admin/templates/bullhorn-connection-assistant-authorize.php:95, ../includes/admin/templates/bullhorn-connection-assistant-complete.php:197
+msgid "Authorize Site"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-authorize.php:86
+msgid "The time has come to finally connect your site to Bullhorn. When you click on &quot;Authorize&quot;, you will be redirected to Bullhorn's site where you will be asked to log in with your API Username and Password and accept the terms and conditions. After you finish that step, you will be returned here."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-authorize.php:103
+msgid "Having an issue? Read this!"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-authorize.php:108
+msgid "There is a known issue when logging into Bullhorn where users with brand new API credentials get a \"HTTP 500 Error\" when attempting to authorize their site. This issue only affects the first login. We are working with our Bullhorn partners to resolve the cause of the error."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-authorize.php:112
+msgid "In the meantime, we have a simple work around. The issue is caused by having a Bullhorn cookie saved to browser, so there are three ways to fix this:"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-authorize.php:115
+msgid "Clear your cookies and re-try authorization."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-authorize.php:116
+msgid "Use a Private Browsing/Incognito window, and re-try authorization."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-authorize.php:117
+msgid "Advanced users may use a cookie manager to selectively remove Bullhorn-related cookies, and retry authorization."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-authorize.php:120
+msgid "We appreciate your patience while we work with our Bullhorn partners to resolve this issue. Reminder: once you've logged in for the first time, you will never need to do this again!"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-authorize.php:63
+msgid "Before we can authorize your site, you must have a Permalink Structure defined."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-authorize.php:71
+msgid "The time has come to finally connect your site to Bullhorn. Unfortunately, Matador requires your site supports \"Pretty Permalinks\" and that a Permalink structure, other than \"Plain\" is enabled. <a href=\"%s\" target=\"_blank\">Edit your permalinks on this options page</a>, and be sure to choose any option other than \"plain\". Once you've made that change, return here to continue."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-authorize.php:78
+msgid "For more information on \"Pretty Permalinks\", <a href=\"%s\">visit this WordPress support document</a>."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-authorize.php:132, ../includes/admin/templates/bullhorn-connection-assistant-callback.php:275, ../includes/admin/templates/bullhorn-connection-assistant-callback.php:158, ../includes/admin/templates/bullhorn-connection-assistant-callback.php:100, ../includes/admin/templates/bullhorn-connection-assistant-callback.php:43, ../includes/admin/templates/bullhorn-connection-assistant-credentials.php:69, ../includes/admin/templates/bullhorn-connection-assistant-datacenter.php:119, ../includes/admin/templates/bullhorn-connection-assistant-prepare-forgot.php:78, ../includes/admin/templates/bullhorn-connection-assistant-prepare-get.php:79
+msgid "Go Back"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-authorize.php:139, ../includes/admin/templates/bullhorn-connection-assistant-callback.php:282, ../includes/admin/templates/bullhorn-connection-assistant-callback.php:165, ../includes/admin/templates/bullhorn-connection-assistant-callback.php:107, ../includes/admin/templates/bullhorn-connection-assistant-callback.php:50, ../includes/admin/templates/bullhorn-connection-assistant-credentials.php:77, ../includes/admin/templates/bullhorn-connection-assistant-datacenter.php:126, ../includes/admin/templates/bullhorn-connection-assistant-prepare-forgot.php:85, ../includes/admin/templates/bullhorn-connection-assistant-prepare-get.php:86, ../includes/admin/templates/bullhorn-connection-assistant-prepare.php:74
+msgid "Exit Connection Assistant"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-authorize.php:30
+msgid "Congratulations! You've connected to Bullhorn."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-authorize.php:36
+msgid "Congratulations. You are now connected. Use the \"Complete Connection Assistant button\" to advance to the connection information screen, where you can review your Bullhorn settings, see tools and information about your Bullhorn connection, and test your site's ability to auto-reconnect."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-authorize.php:46
+msgid "Complete Connection Assistant"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-callback.php:184
+msgid "Unregistered Callback URI"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-callback.php:190
+msgid "Callback URI is not Registered with Bullhorn"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-callback.php:196, ../includes/admin/templates/bullhorn-connection-assistant-callback.php:138
+msgid "When two software services talk to each other, like Matador and Bullhorn, they need to agree on a few things. One is where they'll send each other messages. Each software &quot;listens&quot; for each other to send messages to specific URLs."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-callback.php:202
+msgid "For security purposes, Bullhorn requires that the callback URI be on a list of pre-approved allowed callback URIs before Matador can talk to it. We've checked: your site's callback URI is not valid. Before we can continue, you will need to get it added to the list of approved callback URIs."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-callback.php:208
+msgid "You will need to send an email to Bullhorn support to request they add this URI to your allowed API Redirect URI's list. If you've already asked them to do this and you're still seeing this message, its possible they didn't enter it exactly. This is callback or redirect URI for Matador."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-callback.php:223
+msgid "If you plan to use Matador on both a staging and a production site, you should ask for both site's callback URIs to be registered at the same time. It will save you from delays later on."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-callback.php:230
+msgid "To help you explain to them what you need, feel free to copy and paste, edit, and send this email to Bullhorn Support"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-callback.php:237
+msgid "Dear Bullhorn Support"
+msgstr ""
+
+#. translators: ignore the placeholder.
+#: ../includes/admin/templates/bullhorn-connection-assistant-callback.php:239, ../includes/admin/templates/bullhorn-connection-assistant-prepare-forgot.php:40, ../includes/admin/templates/bullhorn-connection-assistant-prepare-get.php:40
+msgid "We will be using %1$s with WordPress to integrate data from our Bullhorn account to our website with your API."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-callback.php:239, ../includes/admin/templates/bullhorn-connection-assistant-prepare-forgot.php:40, ../includes/admin/templates/bullhorn-connection-assistant-prepare-get.php:40
+msgid "Matador Jobs Board"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-callback.php:240
+msgid "Please add these URL's to our list of allowed API Redirect URIs too:"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-callback.php:241
+msgid "It is important that it be saved exactly as we include it below."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-callback.php:242
+msgid "This is for the API credentials that use the follow ClientID: "
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-callback.php:247, ../includes/admin/templates/bullhorn-connection-assistant-prepare-forgot.php:48, ../includes/admin/templates/bullhorn-connection-assistant-prepare-get.php:47
+msgid "Thank you for your help!"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-callback.php:248, ../includes/admin/templates/bullhorn-connection-assistant-prepare-forgot.php:49, ../includes/admin/templates/bullhorn-connection-assistant-prepare-get.php:48
+msgid "YOUR NAME"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-callback.php:256, ../includes/admin/templates/bullhorn-connection-assistant-callback.php:87
+msgid "Re-check API URI Redirect"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-callback.php:269
+msgid "It can take up to 2 business days for Bullhorn to reply, but we know sometimes it is done in a few hours. You can leave the connection assistant and return right here to where you left off by clicking on the notice at the top of your screen or the \"Connect to Bullhorn\" button on Matador Settings once you're ready. Once you get a reply from Bullhorn that says your API callback is updated, return to the connection assistant, and you will be able to continue to the next step, provided Bullhorn didn't make a mistake."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-callback.php:126
+msgid "Authorize Bullhorn"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-callback.php:132
+msgid "Callback URI is Registered."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-callback.php:144
+msgid "For security purposes, Bullhorn requires that the callback URI be on a list of pre-approved allowed callback URIs before Matador can talk to it. Congratulations, your site's callback URI was valid, so we can move onto the next step!"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-callback.php:152
+msgid "In the next and final step, we'll try to authorize your site with Bullhorn."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-callback.php:172, ../includes/admin/templates/bullhorn-connection-assistant-callback.php:114, ../includes/admin/templates/bullhorn-connection-assistant-callback.php:57, ../includes/admin/templates/bullhorn-connection-assistant-credentials.php:85, ../includes/admin/templates/bullhorn-connection-assistant-datacenter.php:133, ../includes/admin/templates/bullhorn-connection-assistant-prepare-forgot.php:92, ../includes/admin/templates/bullhorn-connection-assistant-prepare-get.php:93, ../includes/admin/templates/bullhorn-connection-assistant-prepare.php:81
+msgid "Next Step"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-callback.php:69
+msgid "Unable to Check Redirect URI"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-callback.php:76
+msgid "Your site is unable to check if your Redirect URI is Registered with Bullhorn. This is usually caused by an incorrect or missing Client ID or Client Secret and/or if the Bullhorn service is currently down, eg: undergoing maintenance."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-callback.php:82
+msgid "You can choose to continue with the connection assistant, but we recommend you Go Back one step and verify your Client ID and Client Secret is correct first. If you continue to have issues, make sure Matador Event Logging is on, try again, and send a copy of your Event Log to Matador support."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-callback.php:26
+msgid "Skip Callback Check"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-callback.php:33
+msgid "Your site is set to a null redirect URL, which is not recommended and useful only in developer mode for advanced users. We will skip this step in the connection assistant."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-complete.php:21
+msgid "Bullhorn Connection Settings and Tools"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-complete.php:43
+msgid "Your site is not connected to Bullhorn. Re-connect by clicking on the \"Authorize\" button below."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-complete.php:33, ../includes/admin/templates/form-fields/field-bullhorn-api-connect.php:57
+msgid "Your site is connected to Bullhorn!"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-complete.php:81
+msgid "Matador is unable to check for a valid Callback URI. This is sometimes caused by a missing or invalid Client ID or Client Secret. Other causes are logged in the Matador Event Log. This may or may not signify an issue with your site."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-complete.php:82, ../includes/admin/templates/bullhorn-connection-assistant-complete.php:73
+msgid "Troubleshoot."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-complete.php:72
+msgid "Callback URI is not registered with Bullhorn."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-complete.php:63
+msgid "Your site is set to a null redirect URL, which is not recommended and useful only in developer mode for advanced users. Matador cannot check if your URI Redirect is set."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-complete.php:100
+msgid "Your site is connected to Bullhorn with a User ID that does not match the Bullhorn API User ID in your settings. This will cause Matador to behave in unexpected ways; we at Matador call this \"the cookie bug.\""
+msgstr ""
+
+#. translators: Placeholder 1 and 2 are user ID strings for the Bullhorn system.
+#: ../includes/admin/templates/bullhorn-connection-assistant-complete.php:103
+msgid "You are authenticated as %1$s when your declared user should be %2$s."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-complete.php:105
+msgid "Read our help document on how to resolve this issue."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-complete.php:121
+msgid "Your API Password contains URL unsafe characters. While valid, this will cause automatic reconnects to fail. Please update your password to exclude the following characters: %s"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-complete.php:145
+msgid "Your site is not able to attempt automatic reconnects. Automatic reconnects require an API User and Password and valid callback URI."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-complete.php:135
+msgid "Your site is set up for automatic reconnect attempts."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-complete.php:182
+msgid "Your Matador Jobs job board URL on this site is set in Bullhorn as your \"Career Portal\" URL."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-complete.php:161
+msgid "If this site is your primary job board, your \"careerPortalDomainRoot\" should be %s."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-complete.php:190
+msgid "Bullhorn Connection Actions"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-complete.php:205
+msgid "Deauthorize Site"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-complete.php:213
+msgid "Test Auto Reconnect"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-complete.php:221
+msgid "Reset Assistant"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-complete.php:228
+msgid "Edit Bullhorn Connection Settings"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-complete.php:263
+msgid "You must have the following URL registered with Bullhorn in order for Matador to be able to connect."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-complete.php:273, ../includes/admin/templates/settings.php:215
+msgid "Save Changes"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-complete.php:276
+msgid "Save & Exit"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-credentials.php:28
+msgid "Input the credentials you got from Bullhorn. The API User ID and API User Password are not required, but we recommend they be provided as it allows us to streamline your authorization process and attempt to automatically reconnect when your site becomes disconnected from Bullhorn."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-credentials.php:64
+msgid "After you advance to the next step, we'll first check that you provided a valid Client ID. If not, we'll bring you back here and let you know. If your Client ID is valid, we'll advance and use these credentials to test if your callback URI is properly registered. Your browser may take up to 30 seconds to complete this check."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-datacenter.php:27
+msgid "To improve speed for its users, Bullhorn has servers located across the world. Your Bullhorn account lives on a server &quot;cluster&quot; which is located at one of many server locations across the world. Each server location shares one API datacenter."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-datacenter.php:33
+msgid "When you log in to Bullhorn, your web browser is automatically told where in the world your account is located, and you usually don't notice it. When Matador accesses your account with the API, we can speed up your site by telling Bullhorn that we already know where your account is located."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-datacenter.php:39
+msgid "Unfortunately, determining your Datacenter may require you to contact Bullhorn. No fear, though as this setting is easy to change later on. If you don't know your datacenter, choose one physically near to you, contact Bullhorn to get the cluster after you complete setup, and change it if your guess was wrong."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-datacenter.php:59
+msgid "If your cluster is..."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-datacenter.php:60
+msgid "Choose this option."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-datacenter.php:66
+msgid "North America Eastern"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-datacenter.php:70
+msgid "North America Western"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-datacenter.php:74
+msgid "North America Western (Cluster 50)"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-datacenter.php:78
+msgid "Asia/Pacific Singapore"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-datacenter.php:82
+msgid "Asia/Pacific Australia"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-datacenter.php:86
+msgid "Europe United Kingdom"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-datacenter.php:90
+msgid "Europe Germany"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-datacenter.php:94
+msgid "Europe French"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-datacenter.php:98
+msgid "UK Sandbox Environments"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-datacenter.php:102
+msgid "US Sandbox Environments"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-datacenter.php:113
+msgid "After you click on \"Next Step\" below, we'll take you to a page where you can input your Bullhorn API Credentials."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-prepare-forgot.php:29
+msgid "If you forgot your API Credentials, Bullhorn is pretty good about getting them for you with a short, often emailed, support request. Since you will be taking the time to get everything set up, make sure you get everything you need, including the four API credentials and your callback or redirect URI registered. To help you know what to say, we wrote this email for you to copy-and-paste, make a few updates, and send to them."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-prepare-forgot.php:38, ../includes/admin/templates/bullhorn-connection-assistant-prepare-get.php:37
+msgid "Dear Bullhorn Sales and Support"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-prepare-forgot.php:41
+msgid "We believe we have access to the Web Developer API for our COMPANY NAME, but we forgot or lost our credentials."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-prepare-forgot.php:42
+msgid "Can you please either reset or retrieve our credentials for us?"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-prepare-forgot.php:43
+msgid "At the minimum, we will need the API Client ID, API Client Secret ID, API User ID, API User Password, and the server cluster id for our account."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-prepare-forgot.php:44
+msgid "Also, please also register and allow these following callback URL's:"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-prepare-forgot.php:58
+msgid "If you plan to use Matador on both a staging and a production site, you should ask for URLs from both sites to be registered in this email. It will save you from delays later on."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-prepare-forgot.php:69
+msgid "It can take up to 2 business days for Bullhorn to reply, but we know sometimes it is done in a few hours. You can leave the connection assistant and return right here to where you left off by clicking on the notice at the top of your screen or the \"Connect to Bullhorn\" button on Matador Settings once you're ready. Once you have your credentials, come back, and click on \"Next Step\"."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-prepare-get.php:28
+msgid "If you haven't asked Bullhorn for API access yet, you will need to. This may require a call-in to sales or support. Since you will be taking the time to get everything set up, make sure you get everything you need, including the four API credentials and your callback or redirect URI registered. To help you with this, feel free to copy-and-paste this email and send it, or use it as a script when calling them on the phone."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-prepare-get.php:38
+msgid "We would like to request access to the Web Developer API for our COMPANY NAME."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-prepare-get.php:41
+msgid "Can you please set us up for access?"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-prepare-get.php:42
+msgid "At the minimum, we will need an API Client ID, API Client Secret ID, API User ID, API User Password, and server cluster for our account."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-prepare-get.php:57
+msgid "If you plan to use Matador on both a staging and a production site, you should ask for both sites to be registered at the same time. It will save you from delays later on."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-prepare-get.php:68
+msgid ""
+"\n"
+"			It can take up to 2 business days for Bullhorn to reply, but we know sometimes it is done in a \n"
+"			few hours. You can leave the connection assistant and return right here to where you left off by \n"
+"			clicking on the notice at the top of your screen or the 'Connect to Bullhorn' button on Matador\n"
+"			Settings once you're ready. Once you have your credentials, come back, and click on 'Next Step'. \n"
+"			"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-prepare.php:28
+msgid "Welcome to Matador. As you know, Matador makes it so your WordPress powered website can talk to your Bullhorn account, including downloading job data from and uploading candidate applications to Bullhorn. To make this magic happen, we need to first connect your site to Bullhorn."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-prepare.php:33
+msgid "To connect your site to Bullhorn, you'll need a few things:"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-prepare.php:37
+msgid "A Bullhorn account with API Access turned on."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-prepare.php:38
+msgid "An API Client ID"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-prepare.php:39
+msgid "An API Client Secret"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-prepare.php:40
+msgid "An API User ID"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-prepare.php:41
+msgid "An API User Password"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-prepare.php:42
+msgid "The Matador Jobs callback URI registered to your Allowed API Redirect URI list at Bullhorn."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-prepare.php:47
+msgid "To get started, let's check if you have what you need to get connected. Select from the following list a best description of your preparedness for using Matador with the Bullhorn API:"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-prepare.php:53
+msgid "I don't have API access or I'm not sure."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-prepare.php:57
+msgid "I have API access, but I forgot my credentials."
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-prepare.php:61
+msgid "I have everything I need, lets go!"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-prepare.php:65
+msgid "I know what I'm doing, skip the Connection Assistant"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-progress.php:31
+msgid "Prepare"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-progress.php:39
+msgid "Credentials"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-progress.php:43
+msgid "Callback URI"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant-progress.php:47
+msgid "Authorize"
+msgstr ""
+
+#: ../includes/admin/templates/bullhorn-connection-assistant.php:28
+msgid "Bullhorn Connection Assistant"
+msgstr ""
+
+#: ../includes/admin/templates/settings.php:38
+msgid "Matador Settings"
+msgstr ""
+
+#: ../includes/admin/templates/upgrade.php:33
+msgid "Upgrade Matador"
+msgstr ""
+
+#: ../includes/admin/templates/upgrade.php:69
+msgid "All Upgrades Complete"
+msgstr ""
+
+#: ../includes/admin/templates/upgrade.php:71
+msgid "Thank you for upgrading Matador."
+msgstr ""
+
+#: ../includes/admin/templates/upgrade.php:73
+msgid "Return to Matador Settings"
+msgstr ""
+
+#: ../includes/admin/templates/upgrade.php:53
+msgid "Upgrade to %1$s"
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-bullhorn-api-connect.php:67
+msgid "Your site is not connected to Bullhorn. Use the Connection Assistant to connect."
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-bullhorn-api-connect.php:80
+msgid "Connection Assistant"
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-bullhorn-api-connect.php:88
+msgid "Sync"
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-bullhorn-api-connect.php:89
+msgid "Hard Sync (Break Cache)"
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-bullhorn-api-connect.php:91
+msgid "Sync Just Tax"
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-bullhorn-api-connect.php:92
+msgid "Sync Just Jobs"
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-get-pro.php:25
+msgid "Process Applications, Get World-Class Support, Gain Access to Awesome Add-Ons"
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-get-pro.php:29
+msgid "Matador Jobs Lite, formerly known as &quot;Bullhorn Staffing Job Listing for WP&quot;	was never supposed to be anything more than a project we built for one client and offered for free to the WordPress community. Two years later, you, our users, have proven to us that our little plugin wasn't so little anymore."
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-get-pro.php:35
+msgid "We spent nearly a year completely rewriting our plugin, leaving no stone unturned. The result is something drastically different than where we started, but also ready for the big leagues. We believe we've built something incredible that simultaneously is the easiest-to-use, most reliable, and most fully-featured Bullhorn integration out there."
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-get-pro.php:41
+msgid "Because of the size and scope of this project, we are proud to debut a premium product. We've put valuable features inside our premium offering, including:"
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-get-pro.php:46
+msgid "More Ways to Customize Your Job Feed"
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-get-pro.php:47
+msgid "Applications that are Automatically Added to Bullhorn"
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-get-pro.php:48
+msgid "Pick-and-Choose Extensions to Extend Functionality"
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-get-pro.php:49
+msgid "Integration with WP Job Manager"
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-get-pro.php:50
+msgid "Smart Caching of Data So You Don't Miss Out When Bullhorn is Down"
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-get-pro.php:51
+msgid "300+ Filters and Hooks"
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-get-pro.php:52
+msgid "Installation and Configuation Support Included"
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-get-pro.php:53
+msgid "Unlimited Email Support"
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-get-pro.php:58
+msgid "There are tons of features! Find out more about Matador Jobs Pro and Pro Plus."
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-get-pro.php:64
+msgid "Learn More"
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-get-pro.php:70
+msgid "Note: Your Site Is In Legacy Mode"
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-get-pro.php:74
+msgid "When you updated your site, we determined you are one of our Legacy users. Thanks for being with us for so long! New users of the \"Lite\" version will not have access to Application Processing. Beware that if you reset your data, install the plugin on a new site, or delete the plugin, you may lose access to Application Processing without an upgrade to Pro or Pro Plus. That said, if upgrade, we've added tons of features around Application Processing to make them more reliable, including local caching of applications to ensure no data loss."
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-license-key.php:71
+msgid "Enter your license key and then \"Activate Site\" to access automatic updates and add-ons."
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-license-key.php:74, ../includes/admin/templates/form-fields/field-license-key.php:97
+msgid "Activate License"
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-license-key.php:86
+msgid "Deactivate Site"
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-password.php:52
+msgid "Show"
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-password.php:55
+msgid "Hide"
+msgstr ""
+
+#: ../includes/admin/templates/form-fields/field-toggle.php:54
+msgid "On"
+msgstr ""
+
+#: ../matador.php:64
+msgid "Multiple versions of the Matador Jobs plugin are active and only one is allowed at a time. Deactivate (and remove) the versions you will no longer use."
+msgstr ""
+
+#: ../src/CommandLine/Commands.php:41
+msgid "Starting sync"
+msgstr ""
+
+#: ../src/CommandLine/Commands.php:56
+msgid "Sync errored "
+msgstr ""
+
+#: ../src/CommandLine/Commands.php:60
+msgid "Sync finished"
+msgstr ""
+
+#: ../src/CommandLine/Matador.php:56
+msgid "Run tasks and automation for Matador Jobs Pro plugin."
+msgstr ""
+
+#. translators: %1$s is requirement, %2$s is version
+#: ../src/Core/Activate.php:95
+msgid "%1$s version %2$s or greater"
+msgstr ""
+
+#: ../src/Core/Activate.php:105
+msgid "and"
+msgstr ""
+
+#. translators: %s is the missing PHP / WP version
+#: ../src/Core/Activate.php:114
+msgid "We're sorry, but Matador Jobs Board plugin requires %s. Please update your system."
+msgstr ""
+
+#: ../src/Core/Install.php:63
+msgid "Matador was unable to make the folders where it stores file uploads. Please create the folder <kbd>wp-content/matador_uploads</kbd> and set its permissions to <kbd>644</kbd>"
+msgstr ""
+
+#: ../src/Core/Monitor.php:57
+msgid "Matador Jobs did not check WP Cron as WP Cron is currently running."
+msgstr ""
+
+#: ../src/Core/Monitor.php:61
+msgid "Matador Jobs did not check WP Cron as your server is set to use system cron tasks."
+msgstr ""
+
+#: ../src/Core/Monitor.php:65
+msgid "The `DISABLE_WP_CRON` constant is set to true. WP-Cron is disabled and will not run on it's own."
+msgstr ""
+
+#: ../src/Core/Monitor.php:69
+msgid "The `ALTERNATE_WP_CRON` constant is set to true. This plugin cannot determine the status of your WP-Cron system."
+msgstr ""
+
+#: ../src/Core/Monitor.php:107
+msgid "WP Cron was working at last check."
+msgstr ""
+
+#: ../src/Core/Monitor.php:105
+msgid "Unexpected HTTP response code: %s"
+msgstr ""
+
+#: ../src/Core/Monitor.php:103
+msgid "WP "
+msgstr ""
+
+#: ../src/Core/Monitor.php:182
+msgid "A Matador Jobs cron task is at least 6 hours late. If this issue persists, it could indicate a possible problem with WP Cron tasks which are necessary for the function of Matador Jobs."
+msgstr ""
+
+#: ../src/Core/Monitor.php:232
+msgid "Matador Jobs detected a change in your site URL. This is usually caused by a migration from a development or staging environment to a production or live environment. Matador Jobs requires you reauthorize with Bullhorn when this occurs."
+msgstr ""
+
+#: ../src/Developer/BullhornAPIDebugger.php:70
+msgid "Debug the Bullhorn API"
+msgstr ""
+
+#: ../src/Developer/BullhornAPIDebugger.php:73
+msgid "The \"Debug the Bullhorn API\" feature is disabled in core Matador Jobs and Matador Jobs Pro as of version 3.8.7."
+msgstr ""
+
+#: ../src/Developer/BullhornAPIDebugger.php:74
+msgid "The feature, while useful, caused performance issues and made available advanced calls to the Bullhorn API without providing guard rails to protect users from making potentially irreversible actions on their live data."
+msgstr ""
+
+#: ../src/Developer/BullhornAPIDebugger.php:75
+msgid "The tool is still available to advanced users, for use at their own risk, as an extension plugin available on the Matador Jobs website."
+msgstr ""
+
+#: ../src/Developer/DevToolAbstract.php:50
+msgid "Classes inheriting from %1$s must have the constant %2$s defined in the child class."
+msgstr ""
+
+#: ../src/Email/AdminNoticeConsentObjectPermissionMessage.php:66, ../src/Email/AdminNoticeCronErrorMessage.php:67, ../src/Email/AdminNoticeDisconnectedMessage.php:67, ../src/Email/AdminNoticeGeneralMessage.php:67
+msgid "Matador wants to warn the administrator of an error, but email notices are disabled. Turn on in settings for future notices."
+msgstr ""
+
+#: ../src/Email/AdminNoticeConsentObjectPermissionMessage.php:73, ../src/Email/AdminNoticeCronErrorMessage.php:74, ../src/Email/AdminNoticeDisconnectedMessage.php:93, ../src/Email/AdminNoticeGeneralMessage.php:74
+msgid "Matador wants to warn the administrator of an error, but has already sent one recently."
+msgstr ""
+
+#. translators: Placeholder is the site name
+#: ../src/Email/AdminNoticeConsentObjectPermissionMessage.php:106
+msgid "Matador Jobs Plugin on %s is unable to save Candidate Consent data"
+msgstr ""
+
+#. translators: Placeholder is the site name
+#: ../src/Email/AdminNoticeCronErrorMessage.php:108
+msgid "Matador Jobs Plugin on %s is experiencing a cron issue requiring immediate intervention"
+msgstr ""
+
+#. translators: Placeholder is the site name
+#: ../src/Email/AdminNoticeDisconnectedMessage.php:130
+msgid "Matador Jobs Plugin on %s is experiencing a connection issue requiring immediate intervention"
+msgstr ""
+
+#. translators: Placeholder is the site name
+#: ../src/Email/AdminNoticeGeneralMessage.php:107
+msgid "Matador Jobs Plugin on %s is experiencing an error"
+msgstr ""
+
+#. translators: Placeholder 1 is the localized word, based on user settings, for Resume or CV and placeholder 2 is the applicant name.
+#: ../src/Email/ApplicationApplicantMessage.php:262
+msgid "%2$s, thank you for your %1$s submission"
+msgstr ""
+
+#. translators: Placeholder 1 is the applied job title, placeholder 2 is the applicant name, and placeholder 3 is the number of additional roles the candidate applied to
+#: ../src/Email/ApplicationApplicantMessage.php:275
+msgid "%2$s, Thank you for your application to %1$s and %3$s other positions"
+msgstr ""
+
+#: ../src/Email/ApplicationApplicantMessage.php:271
+msgid "%2$s, Thank you for your application to %1$s and 1 other position"
+msgstr ""
+
+#: ../src/Email/ApplicationApplicantMessage.php:268
+msgid "%2$s, Thank you for your application to %1$s"
+msgstr ""
+
+#: ../src/Email/ApplicationMessagesTrait.php:65
+msgid "Matador Jobs-powered job board"
+msgstr ""
+
+#. translators: Placeholder 1 is the localized word, based on user settings, for Resume or CV
+#: ../src/Email/ApplicationRecruiterMessage.php:321
+msgid "New %1$s Submission"
+msgstr ""
+
+#. translators: Placeholder 1 is the applied job title, Placeholder 2 is the number of additional roles applied to
+#: ../src/Email/ApplicationRecruiterMessage.php:334
+msgid "Submission Notification for %1$s and %2$s other positions"
+msgstr ""
+
+#: ../src/Email/ApplicationRecruiterMessage.php:330
+msgid "Submission Notification for %1$s and 1 other position"
+msgstr ""
+
+#: ../src/Email/ApplicationRecruiterMessage.php:327
+msgid "Submission Notification for %1$s"
+msgstr ""
+
+#: ../src/Email/Email.php:113
+msgid "Email from"
+msgstr ""
+
+#: ../src/Email/Email.php:401
+msgid "Email failed for unknown issue."
+msgstr ""
+
+#: ../src/Email/Email.php:404
+msgid "Email sent to "
+msgstr ""
+
+#: ../src/Email/Email.php:423
+msgid "No valid \"From\" email address"
+msgstr ""
+
+#: ../src/Email/Email.php:427
+msgid "No valid \"To\" email address"
+msgstr ""
+
+#: ../src/Email/Email.php:431
+msgid "No email subject"
+msgstr ""
+
+#: ../src/Email/Email.php:435
+msgid "No email content"
+msgstr ""
+
+#: ../src/Email/Email.php:439
+msgid "Email failed:"
+msgstr ""
+
+#: ../src/Email/MessageAbstract.php:227
+msgid "Email from Matador Jobs"
+msgstr ""
+
+#. translators: Placeholder is the fully-qualified function name.
+#: ../src/Extension/ExtensionTrait.php:177
+msgid "Function %s must be overridden in child class."
+msgstr ""
+
+#. translators: the name of the plugin
+#: ../src/Extension/ExtensionTrait.php:322
+msgid "The plugin Matador Jobs Pro - %s Extension requires the Matador Jobs Pro plugin to be installed and active. Either activate the required plugin or deactivate the extension."
+msgstr ""
+
+#. translators: the name of the plugin, the Matador version
+#: ../src/Extension/ExtensionTrait.php:326
+msgid "The plugin Matador Jobs Pro - %s Extension requires the Matador Jobs Pro plugin to be at least version %s. Please update your version of Matador Jobs Pro."
+msgstr ""
+
+#. translators: the name of the plugin, the PHP version
+#: ../src/Extension/ExtensionTrait.php:330
+msgid "The plugin Matador Jobs Pro - %s Extension requires PHP Version %s or better. Contact your web host to upgrade so you can use the features offered by this plugin."
+msgstr ""
+
+#. translators: the name of the plugin, the name of the required extension(s)
+#: ../src/Extension/ExtensionTrait.php:334
+msgid "The plugin Matador Jobs Pro - %s Extension requires the following PHP extensions %s. Contact your web host to upgrade so you can use the features offered by this plugin."
+msgstr ""
+
+#: ../src/Extension/ExtensionTrait.php:336
+msgid "You are not supposed to use this function."
+msgstr ""
+
+#. translators: the plugin name.
+#: ../src/SoftwareLicensing/Update.php:248
+msgid "There is a new version of %1$s available."
+msgstr ""
+
+#: ../src/SoftwareLicensing/Update.php:278
+msgid "Update now."
+msgstr ""
+
+#: ../src/SoftwareLicensing/Update.php:267
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr ""
+
+#: ../src/SoftwareLicensing/Update.php:259
+msgid "%1$sView version %2$s details%3$s."
+msgstr ""
+
+#: ../src/SoftwareLicensing/Update.php:254
+msgid "Contact your network administrator to install the update."
+msgstr ""
+
+#: ../src/SoftwareLicensing/Update.php:512
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: ../src/SoftwareLicensing/Update.php:512
+msgid "Error"
+msgstr ""
+
+#: ../src/SoftwareLicensing/Update.php:534
+msgid "Checking for update of Matador Jobs plugin %s"
+msgstr ""
+
+#: ../src/SoftwareLicensing/Update.php:570
+msgid "Check for update of Matador Jobs plugin %s failed. Will retry at next scheduled check."
+msgstr ""
+
+#: ../src/SoftwareLicensing/Update.php:583
+msgid "Matador Jobs plugin %s update information unavailable, perhaps due to an invalid or insufficient license."
+msgstr ""
+
+#: ../src/Sync/Sync.php:180
+msgid "Starting Matador Sync (Experimental)"
+msgstr ""
+
+#: ../src/Sync/Sync.php:178
+msgid "Continuing a Matador Sync (Experimental)"
+msgstr ""
+
+#: ../src/Sync/Sync.php:194
+msgid "Running Sync Task: %s"
+msgstr ""
+
+#: ../src/Sync/Sync.php:200
+msgid "Completed Sync Task: %s"
+msgstr ""
+
+#: ../src/Sync/Sync.php:210
+msgid "Matador Sync (Experimental) complete."
+msgstr ""
+
+#: ../src/Sync/Sync.php:228
+msgid "Matador Sync (Experimental) incomplete but out of time. Will spawn a continuation."
+msgstr ""
+
+#: ../src/Sync/Sync.php:234
+msgid "Matador Sync (Experimental) spawning a continuation via REST API method."
+msgstr ""
+
+#: ../src/Sync/Sync.php:238
+msgid "Matador Sync (Experimental) spawning a continuation via HTTP Loopback method."
+msgstr ""
+
+#: ../src/Sync/Sync.php:271
+msgid "Matador Sync (Experimental) spawning a continuation via WP Cron. Expect delays."
+msgstr ""
+
+#: ../src/Utilities/Jwt.php:128
+msgid "OpenSSL unable to sign data"
+msgstr ""
+
+#: ../src/Rest/Endpoint/Application.php:92
+msgid "No form data was submitted."
+msgstr ""
+
+#: ../src/Rest/Endpoint/Application.php:101
+msgid "Invalid form data was submitted."
+msgstr ""
+
+#. translators: %s: routes()
+#. translators: %s: called method name
+#: ../src/Rest/Endpoint/EndpointAbstract.php:106, ../src/Rest/Endpoint/EndpointAbstract.php:208
+msgid "Abstract class method '%s' must be defined by inheriting class."
+msgstr ""
+
+#: ../src/Rest/Endpoint/EndpointAbstract.php:211
+msgid "Not Implemented"
+msgstr ""
+
+#: ../src/Rest/Endpoint/EndpointAbstract.php:212
+msgid "This call is not available."
+msgstr ""
+
+#: ../src/Rest/Schema/Sync.php:49
+msgid "Call a specific sync, or leave blank to run next scheduled sync or continuation."
+msgstr ""
+
+#: ../src/Rest/Schema/Sync.php:58
+msgid "Whether to break cache on certain syncs. Default `false`."
+msgstr ""
+
+#. translators: placeholder for the name of the 1: Sync Task Name.
+#: ../src/Sync/Abstracts/Task.php:131
+msgid "Starting Matador Sync (Experimental) Task: %1$s"
+msgstr ""
+
+#: ../src/Sync/Abstracts/Task.php:128
+msgid "Continuing a Matador Sync (Experimental) Task: %1$s"
+msgstr ""
+
+#. translators: placeholder for the name of the 1: Sync Task Name and 2: Sync Subtask Name.
+#: ../src/Sync/Abstracts/Task.php:145
+msgid "Running Sync Task \"%1$s\" SubTask \"%2$s\""
+msgstr ""
+
+#. translators: placeholder for the name of the 1: Sync Task Name and 2: Sync Subtask Name.
+#: ../src/Sync/Abstracts/Task.php:154
+msgid "Sync Task \"%1$s\" SubTask \"%2$s\" cannot run due to missing callable. Will skip."
+msgstr ""
+
+#. translators: Placeholder 1 for the name of the completed sync task.
+#: ../src/Sync/Abstracts/Task.php:196
+msgid "Completed Matador Sync (Experimental) Task: %1$s"
+msgstr ""
+
+#: ../src/Sync/Bullhorn/Jobs.php:520
+msgid "Sync found %1$s jobs on remote, of which %2$s are new, %3$s require an update, and %4$s require no update. Further, %5$s are expired and will be removed."
+msgstr ""
+
+#: ../src/Sync/Bullhorn/Jobs.php:553
+msgid "The following jobs are deemed expired, but will not be removed due to user filter: %1$s."
+msgstr ""
+
+#: ../src/Sync/Bullhorn/Jobs.php:569
+msgid "Deleting Expired Jobs with WordPress IDs of %1$s."
+msgstr ""
+
+#: ../src/Sync/Traits/LocalJobs.php:257
+msgid "Deleting Duplicate Jobs with WordPress IDs of %1$s."
+msgstr ""
+
+#: ../templates/application.php:145
+msgid "No fields passed to form. Set default fields in the Matador settings."
+msgstr ""
+
+#: ../templates/application.php:121
+msgid "Submit Application"
+msgstr ""
+
+#: ../templates/application.php:133
+msgid "We are uploading your application. It may take a few moments to read your resume. Please wait!"
+msgstr ""
+
+#: ../templates/general-application-link.php:49
+msgid "Submit a General Application"
+msgstr ""
+
+#: ../templates/job-aside-empty.php:27
+msgid "No Job Found"
+msgstr ""
+
+#: ../templates/job-aside-empty.php:30
+msgid "We're sorry. We were tying to show you an awesome job, but the position is no longer accepting applicants."
+msgstr ""
+
+#: ../templates/jobs-empty.php:57
+msgid "We are sorry, but there are currently no jobs to show."
+msgstr ""
+
+#: ../templates/jobs-pagination.php:27
+msgid "Page "
+msgstr ""
+
+#: ../templates/jobs-select.php:50
+msgid "Select a Job"
+msgstr ""
+
+#: ../templates/jobs-taxonomies-select.php:76
+msgid "View jobs in this"
+msgstr ""
+
+#: ../templates/jobs-taxonomies-select.php:74
+msgid "Limit jobs to these"
+msgstr ""
+
+#: ../templates/jobs-taxonomies-select.php:72
+msgid "Limit jobs to this"
+msgstr ""
+
+#: ../templates/template-actions-filters.php:192
+msgid "Apply to:"
+msgstr ""
+
+#: ../templates/template-actions-filters.php:211
+msgid "Thank you for your application to: "
+msgstr ""
+
+#: ../templates/emails/admin-notification-bullhorn-disconnected.php:51
+msgid "Notice for"
+msgstr ""
+
+#: ../templates/emails/admin-notification-bullhorn-disconnected.php:53, ../templates/emails/administrator-notice-consent-object-permission.php:47, ../templates/emails/administrator-notice-cron.php:45, ../templates/emails/administrator-notice-general.php:51
+msgid "Hello Administrator"
+msgstr ""
+
+#: ../templates/emails/admin-notification-bullhorn-disconnected.php:55
+msgid "Matador Jobs Plugin on is experiencing a connection issue on your site that requires your intervention."
+msgstr ""
+
+#: ../templates/emails/admin-notification-bullhorn-disconnected.php:57, ../templates/emails/administrator-notice-general.php:55
+msgid "Matador Jobs sends this email to administrators after three consecutive connection failures, and once daily thereafter."
+msgstr ""
+
+#: ../templates/emails/admin-notification-bullhorn-disconnected.php:59, ../templates/emails/administrator-notice-general.php:57
+msgid "Below is a copy of the error message, which may be helpful in resolving the issue."
+msgstr ""
+
+#: ../templates/emails/admin-notification-bullhorn-disconnected.php:64
+msgid "For advice on resolving connection issues, review our help document on the topic."
+msgstr ""
+
+#: ../templates/emails/admin-notification-bullhorn-disconnected.php:65, ../templates/emails/administrator-notice-cron.php:53, ../templates/emails/administrator-notice-general.php:63
+msgid "Go to help docs."
+msgstr ""
+
+#: ../templates/emails/administrator-notice-consent-object-permission.php:50
+msgid "The Matador Jobs Plugin is unable to save Candidate Consent data due to a permissions issue."
+msgstr ""
+
+#: ../templates/emails/administrator-notice-consent-object-permission.php:51
+msgid "To minimize disruptions, for the next 24 hours, new applications will continue to be processed into Bullhorn without Candidate Consent data."
+msgstr ""
+
+#: ../templates/emails/administrator-notice-consent-object-permission.php:52
+msgid "We strongly recommend you resolve this issue as soon as possible to remain compliant with user data privacy and consent law, regulations, and policies."
+msgstr ""
+
+#: ../templates/emails/administrator-notice-consent-object-permission.php:56
+msgid "For more information on this issue, including how to resolve it, please visit our help documentation article on the topic."
+msgstr ""
+
+#: ../templates/emails/administrator-notice-consent-object-permission.php:60
+msgid "If after following the instructions in the help document, you determine you need to contact Bullhorn support, the following information will be required."
+msgstr ""
+
+#: ../templates/emails/administrator-notice-consent-object-permission.php:64
+msgid "API Client ID"
+msgstr ""
+
+#: ../templates/emails/administrator-notice-consent-object-permission.php:67
+msgid "API Username"
+msgstr ""
+
+#: ../templates/emails/administrator-notice-consent-object-permission.php:80
+msgid "Consent Object \"Name\""
+msgstr ""
+
+#: ../templates/emails/administrator-notice-cron.php:47
+msgid "Matador Jobs Plugin on is experiencing a cron issue on your site that requires your intervention."
+msgstr ""
+
+#: ../templates/emails/administrator-notice-cron.php:49
+msgid "Matador Jobs sends this email to administrators after a cron task, which includes your regular sync to Bullhorn, is at least 10 minutes late, and once daily thereafter."
+msgstr ""
+
+#: ../templates/emails/administrator-notice-cron.php:52
+msgid "For advice on resolving cron issues, review our help document on the topic."
+msgstr ""
+
+#: ../templates/emails/administrator-notice-general.php:53
+msgid "Matador Jobs Plugin on is experiencing a connection issue on your site that require your intervention."
+msgstr ""
+
+#: ../templates/emails/administrator-notice-general.php:62
+msgid "For advice on resolving connection issues, review our help documentation."
+msgstr ""
+
+#: ../templates/emails/application-confirmation-for-candidate.php:73
+msgid "Hello"
+msgstr ""
+
+#: ../templates/emails/application-confirmation-for-candidate.php:76
+msgid "Thank you for your application with {{sitename}}."
+msgstr ""
+
+#: ../templates/emails/application-confirmation-for-candidate.php:81
+msgid "We received your application for the following role(s):"
+msgstr ""
+
+#: ../templates/emails/application-confirmation-for-candidate.php:86
+msgid "Below is a copy of the information you provided during your application:"
+msgstr ""
+
+#: ../templates/emails/application-confirmation-for-candidate.php:90
+msgid "We will review your application and reach out if we find a match or require more information."
+msgstr ""
+
+#: ../templates/emails/application-confirmation-for-recruiter.php:85
+msgid "Hello!"
+msgstr ""
+
+#: ../templates/emails/application-confirmation-for-recruiter.php:89
+msgid "A new application was submitted on your website for the following role(s):"
+msgstr ""
+
+#: ../templates/emails/application-confirmation-for-recruiter.php:96
+msgid "A new general application was submitted on your website."
+msgstr ""
+
+#: ../templates/emails/application-confirmation-for-recruiter.php:100
+msgid "Below are the applicant's application responses:"
+msgstr ""
+
+#: ../templates/emails/application-confirmation-for-recruiter.php:106
+msgid "Open candidate record in Bullhorn"
+msgstr ""
+
+#: ../templates/form-fields/field-file.php:49, ../templates/form-fields/field-files.php:49
+msgid "files selected"
+msgstr ""
+
+#: ../templates/parts/jobs-search-field-id.php:46, ../templates/parts/jobs-search-field-id.php:72
+msgid "Job ID"
+msgstr ""
+
+#: ../templates/parts/jobs-search-field-keyword.php:46
+msgid "Key Word or Key Words"
+msgstr ""
+
+#: ../templates/parts/jobs-search-field-reset.php:48
+msgid "Clear"
+msgstr ""
+
+#: ../templates/parts/jobs-taxonomies-list-all.php:74
+msgid "View all jobs"
+msgstr ""
+
+#: ../templates/parts/jobs-taxonomies-list-all.php:72
+msgid "Showing jobs from all %s"
+msgstr ""
+
+#: ../templates/parts/jobs-taxonomies-list-all.php:69
+msgid "Show jobs from all %s"
+msgstr ""
+
+#: ../templates/parts/jobs-taxonomies-list-all.php:101
+msgid "All Jobs"
+msgstr ""
+
+#: ../templates/parts/jobs-taxonomies-list-all.php:99, ../templates/parts/jobs-taxonomies-select-all.php:52
+msgid "All"
+msgstr ""
+
+#: ../templates/parts/jobs-taxonomies-list-all.php:97
+msgid "Deselect All"
+msgstr ""
+
+#: ../templates/parts/jobs-taxonomies-list-term.php:63
+msgid "View jobs filed under"
+msgstr ""
+
+#: ../templates/parts/jobs-taxonomies-list-term.php:61
+msgid "Show jobs filed under"
+msgstr ""
+
+#: ../templates/parts/jobs-taxonomies-list-term.php:59
+msgid "Hide jobs filed under"
+msgstr ""
+
+#: ../templates/parts/jobs-taxonomies-select-all.php:50
+msgid "Show All"
+msgstr ""
+
+#: ../templates/parts/the-job-confirmation.php:29
+msgid "Thank you for your application."
+msgstr ""
+
+#: ../templates/parts/the-job-confirmation.php:40
+msgid "We will be getting back with you shortly. In the meanwhile, try reviewing our other positions."
+msgstr ""

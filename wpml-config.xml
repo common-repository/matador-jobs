@@ -1,0 +1,38 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">matador-job-listings</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">matador-categories</taxonomy>
+    <taxonomy translate="1">matador-locations</taxonomy>
+    <taxonomy translate="1">matador-types</taxonomy>
+    <taxonomy translate="1">matador-skills</taxonomy>
+  </taxonomies>
+  <custom-fields>
+    <custom-field action="copy">_matador_source</custom-field>
+    <custom-field action="copy">_matador_source_id</custom-field>
+    <custom-field action="copy">bullhorn_city</custom-field>
+    <custom-field action="copy">bullhorn_state</custom-field>
+    <custom-field action="copy">bullhorn_country</custom-field>
+    <custom-field action="copy">bullhorn_zip</custom-field>
+    <custom-field action="copy">bullhorn_job_location</custom-field>
+    <custom-field action="copy">bullhorn_job_id</custom-field>
+    <custom-field action="translate">certifications</custom-field>
+    <custom-field action="copy">salary</custom-field>
+    <custom-field action="translate">employmenttype</custom-field>
+    <custom-field action="copy-once">jsonld</custom-field>
+    <custom-field action="copy">payrate</custom-field>
+    <custom-field action="copy">yearsrequired</custom-field>
+    <custom-field action="copy">degreelist</custom-field>
+    <custom-field action="copy">taxstatus</custom-field>
+    <custom-field action="copy">travelrequirements</custom-field>
+    <custom-field action="copy">_job_location</custom-field>
+    <custom-field action="copy">_company_name</custom-field>
+    <custom-field action="copy">_company_website</custom-field>
+  </custom-fields>
+    <admin-texts>
+        <key name="matador-settings">
+            <key name="*"/>
+        </key>
+    </admin-texts>
+</wpml-config>
